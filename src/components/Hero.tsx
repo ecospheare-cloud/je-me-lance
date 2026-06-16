@@ -34,7 +34,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#22C55E]/10 text-[#16A34A] text-sm font-semibold mb-8"
         >
           <span className="w-2 h-2 rounded-full bg-[#22C55E] animate-pulse" />
-          Nouveau guide chaque semaine
+          Le meilleur conseil création entreprise — gratuit
         </motion.div>
 
         {/* Headline */}
@@ -44,9 +44,9 @@ export default function Hero() {
           animate="visible"
           className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-[#0F172A] leading-tight tracking-tight mb-6"
         >
-          Lance ton entreprise.{" "}
+          Le conseil création entreprise{" "}
           <span className="bg-gradient-to-r from-[#22C55E] to-[#3B82F6] bg-clip-text text-transparent">
-            Sans te perdre.
+            dont tu as besoin pour te lancer.
           </span>
         </motion.h1>
 
@@ -57,8 +57,8 @@ export default function Hero() {
           animate="visible"
           className="max-w-2xl mx-auto text-lg sm:text-xl text-[#0F172A]/60 mb-10"
         >
-          Des guides pratiques, des ressources gratuites et des conseils concrets
-          pour créer ton activité en France.
+          Des guides pratiques et des conseils concrets pour la création d&apos;entreprise en France —
+          auto-entrepreneur, statut juridique, premiers clients. Tout ce qu&apos;il faut savoir, sans jargon.
         </motion.p>
 
         {/* CTAs */}

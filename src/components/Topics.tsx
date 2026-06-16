@@ -36,10 +36,10 @@ export default function Topics() {
           className="text-center mb-14"
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0F172A] mb-4">
-            Les sujets qu&apos;on couvre
+            Nos conseils pour la création d&apos;entreprise
           </h2>
           <p className="text-[#0F172A]/50 text-lg max-w-xl mx-auto">
-            Des ressources sur tous les aspects de la création d&apos;entreprise en France.
+            Tous les sujets clés pour créer et développer ton entreprise en France.
           </p>
         </motion.div>
 

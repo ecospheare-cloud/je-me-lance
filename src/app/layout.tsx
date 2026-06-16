@@ -9,9 +9,16 @@ const geistSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "je-me-lance.fr — Lance ton entreprise. Sans te perdre.",
+  title: "Conseil création entreprise en France — Guide gratuit | je-me-lance.fr",
   description:
-    "Des guides pratiques, des ressources gratuites et des conseils concrets pour créer ton activité en France.",
+    "Tous les conseils pour la création d'entreprise en France : auto-entrepreneur, micro-entreprise, statut juridique, premiers clients. Guides gratuits et concrets pour se lancer.",
+  keywords: "conseil création entreprise, créer son entreprise, auto entrepreneur, micro entreprise, statut juridique",
+  openGraph: {
+    title: "Conseil création entreprise en France — je-me-lance.fr",
+    description: "Tous les conseils pour créer son entreprise en France. Guides gratuits, sans jargon.",
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

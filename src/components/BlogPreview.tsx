@@ -5,21 +5,21 @@ import { motion } from "framer-motion";
 const posts = [
   {
     category: "Auto-entrepreneur",
-    title: "Comment devenir auto-entrepreneur en 2025 : le guide complet",
+    title: "Conseil création entreprise : devenir auto-entrepreneur en 2025, le guide complet",
     excerpt:
-      "Toutes les étapes pour créer ton auto-entreprise, de l'inscription en ligne jusqu'à ta première facture.",
+      "Toutes les étapes pour créer ton auto-entreprise en France, de l'inscription en ligne jusqu'à ta première facture.",
   },
   {
     category: "Premiers clients",
-    title: "5 stratégies gratuites pour trouver tes premiers clients",
+    title: "5 conseils gratuits pour trouver tes premiers clients en freelance",
     excerpt:
       "Pas de budget pub ? Pas de problème. Voici comment attirer tes premiers clients avec zéro euro.",
   },
   {
     category: "Statut juridique",
-    title: "Auto-entrepreneur vs SASU : lequel choisir en 2025 ?",
+    title: "Quel statut choisir pour créer son entreprise : auto-entrepreneur vs SASU en 2025",
     excerpt:
-      "Comparatif complet des deux statuts les plus populaires pour les créateurs d'entreprise en France.",
+      "Comparatif complet des deux statuts les plus populaires pour la création d'entreprise en France.",
   },
 ];
 
@@ -45,10 +45,10 @@ export default function BlogPreview() {
           className="text-center mb-14"
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0F172A] mb-4">
-            Derniers articles
+            Derniers conseils pour créer son entreprise
           </h2>
           <p className="text-[#0F172A]/50 text-lg">
-            Des ressources fraîches pour avancer chaque semaine.
+            Des guides concrets publiés chaque semaine pour avancer dans ton projet.
           </p>
         </motion.div>
 

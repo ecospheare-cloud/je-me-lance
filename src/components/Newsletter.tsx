@@ -23,7 +23,7 @@ export default function Newsletter() {
         >
           <div className="text-5xl mb-6">📬</div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0F172A] mb-4">
-            Reçois les meilleurs guides{" "}
+            Reçois nos conseils création entreprise{" "}
             <span className="text-[#22C55E]">directement dans ta boîte mail</span>
           </h2>
           <p className="text-[#0F172A]/60 text-lg mb-10">

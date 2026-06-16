@@ -39,7 +39,7 @@ export default function ForWho() {
           className="text-center mb-14"
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0F172A] mb-4">
-            Ce blog est fait pour toi si…
+            À qui s&apos;adresse ce conseil création entreprise ?
           </h2>
           <p className="text-[#0F172A]/50 text-lg max-w-xl mx-auto">
             Tu es au bon endroit si tu reconnais l&apos;une de ces situations.

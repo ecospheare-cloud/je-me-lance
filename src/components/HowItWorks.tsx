@@ -35,7 +35,7 @@ export default function HowItWorks() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0F172A] mb-4">
-            Comment ça marche ?
+            Comment utiliser nos conseils pour créer ton entreprise ?
           </h2>
           <p className="text-[#0F172A]/50 text-lg max-w-xl mx-auto">
             Simple, rapide, efficace — de l&apos;idée à l&apos;action en 3 étapes.
