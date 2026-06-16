@@ -6,26 +6,29 @@ const steps = [
   {
     number: "01",
     title: "Choisis ton sujet",
-    desc: "Tu parcours les guides selon ta situation et ton projet.",
+    desc: "Tu parcours les guides selon ta situation et ton projet : statut, fiscalité, premiers clients...",
     emoji: "🔍",
+    color: "#22C55E",
   },
   {
     number: "02",
     title: "Lis & applique",
-    desc: "Des articles concrets, sans jargon, directement actionnables.",
+    desc: "Des articles concrets, sans jargon, avec des exemples réels et des étapes actionnables.",
     emoji: "📖",
+    color: "#3B82F6",
   },
   {
     number: "03",
     title: "Lance-toi",
-    desc: "Tu passes à l'action avec confiance et méthode.",
+    desc: "Tu passes à l'action avec confiance, méthode et le sentiment d'être bien préparé.",
     emoji: "🚀",
+    color: "#22C55E",
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-[#F8FAFC]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -42,9 +45,9 @@ export default function HowItWorks() {
           </p>
         </motion.div>
 
-        <div className="relative flex flex-col md:flex-row items-start gap-8 md:gap-0">
-          {/* Connecting line (desktop) */}
-          <div className="hidden md:block absolute top-12 left-[16.5%] right-[16.5%] h-0.5 bg-gradient-to-r from-[#22C55E] via-[#3B82F6] to-[#22C55E] opacity-30" />
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 relative">
+          {/* Connecting dashes (desktop) */}
+          <div className="hidden md:block absolute top-10 left-[calc(33%+1rem)] right-[calc(33%+1rem)] border-t-2 border-dashed border-gray-200" />
 
           {steps.map((step, i) => (
             <motion.div
@@ -53,28 +56,45 @@ export default function HowItWorks() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.5, delay: i * 0.15 }}
-              className="relative flex-1 flex flex-col items-center text-center px-6"
+              className="relative flex flex-col items-center text-center bg-white rounded-2xl border border-gray-100 p-8 shadow-sm"
             >
-              <motion.div
-                whileInView={{ scale: [0.6, 1.1, 1] }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.15 + 0.2 }}
-                className="w-24 h-24 rounded-full bg-gradient-to-br from-[#22C55E] to-[#3B82F6] flex flex-col items-center justify-center text-white mb-6 shadow-lg shadow-green-200/50"
+              {/* Number badge */}
+              <div
+                className="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 rounded-full flex items-center justify-center text-white text-xs font-bold shadow-md"
+                style={{ backgroundColor: step.color }}
               >
-                <span className="text-2xl">{step.emoji}</span>
-                <span className="text-xs font-bold opacity-80">{step.number}</span>
-              </motion.div>
+                {step.number}
+              </div>
 
-              {/* Arrow between steps */}
-              {i < steps.length - 1 && (
-                <div className="md:hidden absolute -bottom-6 left-1/2 -translate-x-1/2 text-2xl text-[#22C55E]">↓</div>
-              )}
+              {/* Emoji icon */}
+              <div
+                className="w-20 h-20 rounded-2xl flex items-center justify-center text-4xl mb-5 mt-2"
+                style={{ backgroundColor: `${step.color}15` }}
+              >
+                {step.emoji}
+              </div>
 
-              <h3 className="text-xl font-bold text-[#0F172A] mb-2">{step.title}</h3>
-              <p className="text-[#0F172A]/60 leading-relaxed">{step.desc}</p>
+              <h3 className="text-xl font-bold text-[#0F172A] mb-3">{step.title}</h3>
+              <p className="text-[#0F172A]/60 leading-relaxed text-sm">{step.desc}</p>
             </motion.div>
           ))}
         </div>
+
+        {/* CTA below */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.5 }}
+          className="text-center mt-12"
+        >
+          <a
+            href="#blog"
+            className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-[#0F172A] text-white font-bold hover:bg-[#1E293B] transition-colors"
+          >
+            Commencer à lire les guides →
+          </a>
+        </motion.div>
       </div>
     </section>
   );
