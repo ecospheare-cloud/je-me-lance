@@ -1,7 +1,9 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Intro from "@/components/Intro";
 import ForWho from "@/components/ForWho";
 import Topics from "@/components/Topics";
+import Guides from "@/components/Guides";
 import HowItWorks from "@/components/HowItWorks";
 import Stats from "@/components/Stats";
 import BlogPreview from "@/components/BlogPreview";
@@ -13,8 +15,10 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
+      <Intro />
       <ForWho />
       <Topics />
+      <Guides />
       <HowItWorks />
       <Stats />
       <BlogPreview />
