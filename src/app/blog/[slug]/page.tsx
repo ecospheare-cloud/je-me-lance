@@ -4,6 +4,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { posts, getPostBySlug } from "@/lib/posts";
 
+const siteUrl = "https://je-me-lance.fr";
+
 export function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }));
 }
@@ -12,8 +14,15 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug);
   if (!post) return {};
   return {
-    title: `${post.title} | je-me-lance.fr`,
+    title: post.title,
     description: post.excerpt,
+    alternates: { canonical: `/blog/${post.slug}` },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url: `${siteUrl}/blog/${post.slug}`,
+      type: "article",
+    },
   };
 }
 
@@ -21,14 +30,47 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug);
   if (!post) notFound();
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    author: { "@type": "Organization", name: "je-me-lance.fr" },
+    publisher: { "@type": "Organization", name: "je-me-lance.fr" },
+    mainEntityOfPage: `${siteUrl}/blog/${post.slug}`,
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Accueil", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${siteUrl}/blog` },
+      { "@type": "ListItem", position: 3, name: post.title, item: `${siteUrl}/blog/${post.slug}` },
+    ],
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <Navbar />
       <article className="py-28 bg-white">
         <div className="max-w-2xl mx-auto px-4 sm:px-6">
-          <Link href="/blog" className="text-[#22C55E] font-semibold text-sm mb-6 inline-block">
-            ← Tous les articles
-          </Link>
+          <nav aria-label="Fil d'Ariane" className="text-xs text-[#0F172A]/40 mb-6">
+            <Link href="/" className="hover:text-[#22C55E]">Accueil</Link>
+            {" / "}
+            <Link href="/blog" className="hover:text-[#22C55E]">Blog</Link>
+            {" / "}
+            <span className="text-[#0F172A]/60">{post.title}</span>
+          </nav>
 
           <span className="inline-flex px-3 py-1 rounded-full bg-[#22C55E]/10 text-[#16A34A] text-xs font-bold uppercase tracking-wide mb-4">
             {post.category}

@@ -4,14 +4,28 @@ import Link from "next/link";
 import { posts } from "@/lib/posts";
 
 export const metadata = {
-  title: "Blog — Conseil création entreprise | je-me-lance.fr",
+  title: "Blog — Conseil création entreprise",
   description:
     "Tous nos articles et conseils pour créer son entreprise en France : auto-entrepreneur, statut juridique, business plan, premiers clients.",
+  alternates: { canonical: "/blog" },
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Accueil", item: "https://je-me-lance.fr" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://je-me-lance.fr/blog" },
+  ],
 };
 
 export default function BlogPage() {
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <Navbar />
       <section className="py-28 bg-[#F8FAFC] min-h-screen">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
