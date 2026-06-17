@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import Logo from "./Logo";
 
 const links = [
   { label: "Accueil", href: "#accueil" },
@@ -32,7 +33,7 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between">
         <a href="#accueil" className="flex items-center gap-2 font-bold text-lg text-[#0F172A]">
-          <span className="text-2xl">🐱</span>
+          <Logo size={30} />
           <span>je-me-lance<span className="text-[#22C55E]">.fr</span></span>
         </a>
         <div className="hidden md:flex items-center gap-8">

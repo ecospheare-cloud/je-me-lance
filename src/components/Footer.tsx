@@ -1,5 +1,7 @@
 "use client";
 
+import Logo from "./Logo";
+
 const nav = ["Accueil", "Blog", "À propos", "Contact"];
 const subjects = ["Auto-entrepreneur", "Micro-entreprise", "Statut juridique", "Business plan", "Premiers clients"];
 const legal = ["Mentions légales", "Politique de confidentialité", "CGU"];
@@ -12,7 +14,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 font-bold text-xl mb-4">
-              <span className="text-2xl">🐱</span>
+              <Logo size={28} />
               <span>je-me-lance<span className="text-[#22C55E]">.fr</span></span>
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-6">
