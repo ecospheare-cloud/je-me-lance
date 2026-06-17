@@ -70,7 +70,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 text-center text-white/40 text-sm">
-          © 2025 je-me-lance.fr — Fait avec ❤️ pour les entrepreneurs français
+          © 2026 je-me-lance.fr — Fait avec ❤️ pour les entrepreneurs français
         </div>
       </div>
     </footer>
