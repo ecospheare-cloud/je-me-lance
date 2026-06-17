@@ -9,6 +9,7 @@ const geistSans = localFont({
 });
 
 const siteUrl = "https://je-me-lance.fr";
+const ogImage = "https://i.ibb.co/6765s6RW/ff48bff1-df6d-4dcf-a6ec-f0a9f4468b4f.png";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -21,6 +22,11 @@ export const metadata: Metadata = {
   keywords: "conseil création entreprise, créer son entreprise, auto entrepreneur, micro entreprise, statut juridique",
   alternates: {
     canonical: "/",
+  },
+  icons: {
+    icon: ogImage,
+    shortcut: ogImage,
+    apple: ogImage,
   },
   robots: {
     index: true,
@@ -39,11 +45,13 @@ export const metadata: Metadata = {
     siteName: "je-me-lance.fr",
     locale: "fr_FR",
     type: "website",
+    images: [{ url: ogImage, width: 1200, height: 630, alt: "je-me-lance.fr" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Conseil création entreprise en France — je-me-lance.fr",
     description: "Tous les conseils pour créer son entreprise en France. Guides gratuits, sans jargon.",
+    images: [ogImage],
   },
 };
 
@@ -55,7 +63,7 @@ const jsonLd = {
       "@id": `${siteUrl}/#organization`,
       name: "je-me-lance.fr",
       url: siteUrl,
-      logo: `${siteUrl}/logo.png`,
+      logo: ogImage,
       sameAs: [],
     },
     {
