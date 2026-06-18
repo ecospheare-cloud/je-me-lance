@@ -14,8 +14,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 font-bold text-xl mb-4">
-              <Logo size={28} />
               <span>je-me-lance<span className="text-[#22C55E]">.fr</span></span>
+              <Logo size={28} />
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-6">
               Le blog qui aide les entrepreneurs français à se lancer sans se perdre.
