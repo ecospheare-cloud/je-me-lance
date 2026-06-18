@@ -2,13 +2,14 @@
 
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import Logo from "./Logo";
 
 const links = [
-  { label: "Accueil", href: "#accueil" },
-  { label: "Blog", href: "#blog" },
-  { label: "À propos", href: "#a-propos" },
-  { label: "Contact", href: "#contact" },
+  { label: "Accueil", href: "/#accueil" },
+  { label: "Blog", href: "/blog" },
+  { label: "À propos", href: "/#a-propos" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Navbar() {
@@ -32,27 +33,27 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between">
-        <a href="#accueil" className="flex items-center gap-2 font-bold text-lg text-[#0F172A]">
+        <Link href="/#accueil" className="flex items-center gap-2 font-bold text-lg text-[#0F172A]">
           <Logo size={30} />
           <span>je-me-lance<span className="text-[#22C55E]">.fr</span></span>
-        </a>
+        </Link>
         <div className="hidden md:flex items-center gap-8">
           {links.map((l) => (
-            <a
+            <Link
               key={l.label}
               href={l.href}
               className="text-sm font-medium text-[#0F172A]/70 hover:text-[#22C55E] transition-colors"
             >
               {l.label}
-            </a>
+            </Link>
           ))}
         </div>
-        <a
-          href="#newsletter"
+        <Link
+          href="/#newsletter"
           className="hidden md:inline-flex items-center px-4 py-2 rounded-lg bg-[#22C55E] text-white text-sm font-semibold hover:bg-[#16A34A] transition-colors"
         >
           S&apos;abonner
-        </a>
+        </Link>
         {/* Mobile menu button placeholder */}
         <button className="md:hidden p-2 rounded-md text-[#0F172A]">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

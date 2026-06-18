@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { posts, getPostBySlug } from "@/lib/posts";
+import RelatedPosts from "@/components/RelatedPosts";
 
 const siteUrl = "https://je-me-lance.fr";
 
@@ -100,6 +101,8 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
               Voir tous les articles →
             </Link>
           </div>
+
+          <RelatedPosts currentSlug={post.slug} />
         </div>
       </article>
       <Footer />
