@@ -65,11 +65,11 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
       <article className="bg-white">
         <div className="flex gap-8 min-h-screen pt-28">
           {/* Sidebar fixe à gauche */}
-          <aside className="hidden md:flex md:flex-col md:w-72 md:sticky md:top-28 md:h-[calc(100vh-7rem)] md:pl-6 md:border-r border-[#E2E8F0]">
-            <div className="flex flex-col gap-6">
+          <aside className="hidden md:flex md:flex-col md:w-72 md:sticky md:top-28 md:h-[calc(100vh-7rem)] md:pl-6 md:pr-6 md:py-8 md:border-r border-[#E2E8F0]">
+            <div className="flex flex-col gap-8">
               <div>
-                <h3 className="text-lg font-bold text-[#0F172A] mb-2">Reçois nos conseils gratuits</h3>
-                <p className="text-sm text-[#0F172A]/60 mb-4">Rejoins les entrepreneures qui reçoivent chaque semaine des guides et astuces pour réussir.</p>
+                <h3 className="text-lg font-bold text-[#0F172A] mb-3">Reçois nos conseils gratuits</h3>
+                <p className="text-sm text-[#0F172A]/60 mb-5">Rejoins les entrepreneures qui reçoivent chaque semaine des guides et astuces pour réussir.</p>
                 <form className="flex flex-col gap-3">
                   <input
                     type="email"
