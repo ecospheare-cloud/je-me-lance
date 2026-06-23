@@ -82,12 +82,43 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           </h1>
           <p className="text-[#0F172A]/40 text-sm mb-10">{post.date}</p>
 
+          {post.image && (
+            <img
+              src={post.image}
+              alt={post.title}
+              className="w-full rounded-2xl mb-10 object-cover"
+            />
+          )}
+
           <div className="flex flex-col gap-5">
-            {post.content.map((paragraph, i) => (
-              <p key={i} className="text-[#0F172A]/80 text-base leading-relaxed">
-                {paragraph}
-              </p>
-            ))}
+            {post.content.map((block, i) => {
+              if (block.startsWith("### ")) {
+                return (
+                  <h3 key={i} className="text-xl font-bold text-[#0F172A] mt-4 mb-1">
+                    {block.slice(4)}
+                  </h3>
+                );
+              }
+              if (block.startsWith("## ")) {
+                return (
+                  <h2 key={i} className="text-2xl sm:text-3xl font-extrabold text-[#0F172A] mt-8 mb-2">
+                    {block.slice(3)}
+                  </h2>
+                );
+              }
+              if (block.startsWith("**") && block.endsWith("**")) {
+                return (
+                  <p key={i} className="text-[#0F172A] font-semibold text-base leading-relaxed">
+                    {block.slice(2, -2)}
+                  </p>
+                );
+              }
+              return (
+                <p key={i} className="text-[#0F172A]/80 text-base leading-relaxed whitespace-pre-line">
+                  {block}
+                </p>
+              );
+            })}
           </div>
 
           <div className="mt-14 p-6 rounded-2xl bg-[#F0FDF4] border border-green-100">

@@ -7,6 +7,7 @@ export type Post = {
   excerpt: string;
   date: string;
   content: string[];
+  image?: string;
 };
 
 export const posts: Post[] = postsData as Post[];
