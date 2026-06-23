@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { posts, getPostBySlug } from "@/lib/posts";
 import RelatedPosts from "@/components/RelatedPosts";
+import ArticleContent from "@/components/ArticleContent";
 
 const siteUrl = "https://je-me-lance.fr";
 
@@ -63,77 +64,35 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <Navbar />
-      <article className="py-28 bg-white">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6">
-          <nav aria-label="Fil d'Ariane" className="text-xs text-[#0F172A]/40 mb-6">
-            <Link href="/" className="hover:text-[#22C55E]">Accueil</Link>
-            {" / "}
-            <Link href="/blog" className="hover:text-[#22C55E]">Blog</Link>
-            {" / "}
-            <span className="text-[#0F172A]/60">{post.title}</span>
-          </nav>
+      <article className="bg-white">
+        <div className="flex gap-8 min-h-screen">
+          {/* Sidebar fixe à gauche */}
+          <aside className="hidden lg:flex lg:flex-col lg:w-80 lg:sticky lg:top-0 lg:h-screen lg:py-12 lg:pl-8 lg:border-r border-[#E2E8F0]">
+            <div className="flex flex-col gap-6">
+              <div>
+                <h3 className="text-lg font-bold text-[#0F172A] mb-2">Reçois nos conseils gratuits</h3>
+                <p className="text-sm text-[#0F172A]/60 mb-4">Rejoins les entrepreneures qui reçoivent chaque semaine des guides et astuces pour réussir.</p>
+                <form className="flex flex-col gap-3">
+                  <input
+                    type="email"
+                    placeholder="Ton email"
+                    className="px-4 py-2.5 border border-[#E2E8F0] rounded-lg text-sm focus:outline-none focus:border-[#22C55E]"
+                  />
+                  <button
+                    type="submit"
+                    className="px-5 py-2.5 rounded-lg bg-[#22C55E] text-white text-sm font-bold hover:bg-[#16A34A] transition-colors"
+                  >
+                    S'abonner
+                  </button>
+                </form>
+              </div>
+            </div>
+          </aside>
 
-          <span className="inline-flex px-3 py-1 rounded-full bg-[#22C55E]/10 text-[#16A34A] text-xs font-bold uppercase tracking-wide mb-4">
-            {post.category}
-          </span>
-
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] mb-3 leading-tight">
-            {post.title}
-          </h1>
-          <p className="text-[#0F172A]/40 text-sm mb-10">{post.date}</p>
-
-          {post.image && (
-            <img
-              src={post.image}
-              alt={post.title}
-              className="w-full rounded-2xl mb-10 object-cover"
-            />
-          )}
-
-          <div className="flex flex-col gap-5">
-            {post.content.map((block, i) => {
-              if (block.startsWith("### ")) {
-                return (
-                  <h3 key={i} className="text-xl font-bold text-[#0F172A] mt-4 mb-1">
-                    {block.slice(4)}
-                  </h3>
-                );
-              }
-              if (block.startsWith("## ")) {
-                return (
-                  <h2 key={i} className="text-2xl sm:text-3xl font-extrabold text-[#0F172A] mt-8 mb-2">
-                    {block.slice(3)}
-                  </h2>
-                );
-              }
-              if (block.startsWith("**") && block.endsWith("**")) {
-                return (
-                  <p key={i} className="text-[#0F172A] font-semibold text-base leading-relaxed">
-                    {block.slice(2, -2)}
-                  </p>
-                );
-              }
-              return (
-                <p key={i} className="text-[#0F172A]/80 text-base leading-relaxed whitespace-pre-line">
-                  {block}
-                </p>
-              );
-            })}
+          {/* Contenu scrollable */}
+          <div className="flex-1 py-12 px-4 sm:px-6 max-w-2xl">
+            <ArticleContent post={post} />
           </div>
-
-          <div className="mt-14 p-6 rounded-2xl bg-[#F0FDF4] border border-green-100">
-            <p className="text-[#0F172A] font-semibold mb-2">
-              Tu veux d&apos;autres conseils pour créer ton entreprise ?
-            </p>
-            <Link
-              href="/blog"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#22C55E] text-white text-sm font-bold hover:bg-[#16A34A] transition-colors"
-            >
-              Voir tous les articles →
-            </Link>
-          </div>
-
-          <RelatedPosts currentSlug={post.slug} />
         </div>
       </article>
       <Footer />
