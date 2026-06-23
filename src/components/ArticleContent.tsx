@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Post } from "@/lib/posts";
-import RelatedPosts from "./RelatedPosts";
+import RelatedPosts from "@/components/RelatedPosts";
 
 export default function ArticleContent({ post }: { post: Post }) {
   const [faqOpen, setFaqOpen] = useState<number | null>(null);
