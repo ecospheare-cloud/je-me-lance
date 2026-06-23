@@ -8,17 +8,15 @@ import RelatedPosts from "./RelatedPosts";
 export default function ArticleContent({ post }: { post: Post }) {
   const [faqOpen, setFaqOpen] = useState<number | null>(null);
 
-  const faqQuestions: { [key: string]: boolean } = {};
-  post.content.forEach((block) => {
-    if (block.startsWith("**") && block.endsWith("**")) {
-      faqQuestions[block.slice(2, -2)] = true;
-    }
-  });
-
-  let inFaqSection = false;
   const faqStartIndex = post.content.findIndex((block) =>
-    block.includes("Questions Fréquentes")
+    block.includes("Questions Fréquentes") || block.includes("FAQ")
   );
+  const faqIndices = new Set<number>();
+  for (let i = faqStartIndex; i >= 0 && i < post.content.length; i++) {
+    if (post.content[i].startsWith("**") && post.content[i].endsWith("**")) {
+      faqIndices.add(i);
+    }
+  }
 
   return (
     <>
@@ -53,10 +51,10 @@ export default function ArticleContent({ post }: { post: Post }) {
 
       <div className="flex flex-col gap-5">
         {post.content.map((block, i) => {
-          const isFaqSection = faqStartIndex >= 0 && i >= faqStartIndex;
-          if (isFaqSection && block.startsWith("**") && block.endsWith("**")) {
+          if (faqIndices.has(i)) {
             const question = block.slice(2, -2);
             const isOpen = faqOpen === i;
+            const answer = i + 1 < post.content.length ? post.content[i + 1] : null;
             return (
               <div
                 key={i}
@@ -69,13 +67,17 @@ export default function ArticleContent({ post }: { post: Post }) {
                   {question}
                   <span className="text-xl">{isOpen ? "−" : "+"}</span>
                 </button>
-                {isOpen && post.content[i + 1] && !post.content[i + 1].startsWith("**") && (
+                {isOpen && answer && (
                   <div className="px-5 py-4 text-[#0F172A]/80 text-base leading-relaxed bg-white">
-                    {post.content[i + 1]}
+                    {answer}
                   </div>
                 )}
               </div>
             );
+          }
+
+          if (faqStartIndex >= 0 && i === faqStartIndex + 1 && faqIndices.has(i)) {
+            return null;
           }
 
           if (block.startsWith("### ")) {
@@ -92,7 +94,7 @@ export default function ArticleContent({ post }: { post: Post }) {
               </h2>
             );
           }
-          if (block.startsWith("**") && block.endsWith("**")) {
+          if (block.startsWith("**") && block.endsWith("**") && !faqIndices.has(i)) {
             return (
               <p key={i} className="text-[#0F172A] font-semibold text-base leading-relaxed">
                 {block.slice(2, -2)}
@@ -100,7 +102,8 @@ export default function ArticleContent({ post }: { post: Post }) {
             );
           }
 
-          if (isFaqSection && (block.startsWith("**") || faqQuestions[block])) {
+          const prevIsFaq = i > 0 && faqIndices.has(i - 1);
+          if (prevIsFaq) {
             return null;
           }
 
