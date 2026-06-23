@@ -1,9 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { posts, getPostBySlug } from "@/lib/posts";
-import RelatedPosts from "@/components/RelatedPosts";
 import ArticleContent from "@/components/ArticleContent";
 
 const siteUrl = "https://je-me-lance.fr";
@@ -82,7 +80,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
                     type="submit"
                     className="px-5 py-2.5 rounded-lg bg-[#22C55E] text-white text-sm font-bold hover:bg-[#16A34A] transition-colors"
                   >
-                    S'abonner
+                    S&apos;abonner
                   </button>
                 </form>
               </div>
