@@ -44,7 +44,7 @@ export default function ArticleContent({ post }: { post: Post }) {
       {post.image && (
         <img
           src={post.image}
-          alt={post.title}
+          alt={post.imageAlt ?? post.title}
           className="w-full rounded-2xl mb-10 object-cover h-80"
         />
       )}

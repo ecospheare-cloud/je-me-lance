@@ -8,6 +8,7 @@ export type Post = {
   date: string;
   content: string[];
   image?: string;
+  imageAlt?: string;
 };
 
 export const posts: Post[] = postsData as Post[];

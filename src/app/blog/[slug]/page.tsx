@@ -63,9 +63,9 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
       />
       <Navbar />
       <article className="bg-white">
-        <div className="flex gap-8 min-h-screen">
+        <div className="flex gap-8 min-h-screen pt-28">
           {/* Sidebar fixe à gauche */}
-          <aside className="hidden md:flex md:flex-col md:w-72 md:sticky md:top-0 md:h-screen md:py-12 md:pl-6 md:border-r border-[#E2E8F0]">
+          <aside className="hidden md:flex md:flex-col md:w-72 md:sticky md:top-28 md:h-[calc(100vh-7rem)] md:pl-6 md:border-r border-[#E2E8F0]">
             <div className="flex flex-col gap-6">
               <div>
                 <h3 className="text-lg font-bold text-[#0F172A] mb-2">Reçois nos conseils gratuits</h3>
@@ -88,7 +88,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           </aside>
 
           {/* Contenu scrollable */}
-          <div className="flex-1 py-12 px-4 sm:px-6 max-w-2xl">
+          <div className="flex-1 pb-12 px-4 sm:px-6 max-w-2xl">
             <ArticleContent post={post} />
           </div>
         </div>
