@@ -67,7 +67,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
       <article className="bg-white">
         <div className="flex gap-8 min-h-screen">
           {/* Sidebar fixe à gauche */}
-          <aside className="hidden lg:flex lg:flex-col lg:w-80 lg:sticky lg:top-0 lg:h-screen lg:py-12 lg:pl-8 lg:border-r border-[#E2E8F0]">
+          <aside className="hidden md:flex md:flex-col md:w-72 md:sticky md:top-0 md:h-screen md:py-12 md:pl-6 md:border-r border-[#E2E8F0]">
             <div className="flex flex-col gap-6">
               <div>
                 <h3 className="text-lg font-bold text-[#0F172A] mb-2">Reçois nos conseils gratuits</h3>
