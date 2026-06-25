@@ -43,19 +43,28 @@ export default function BlogPage() {
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="bg-white rounded-2xl border border-gray-100 p-6 flex flex-col gap-3 hover:shadow-lg transition-shadow"
+                className="bg-white rounded-2xl border border-gray-100 overflow-hidden flex flex-col hover:shadow-lg transition-shadow"
               >
-                <div className="flex items-center justify-between">
-                  <span className="inline-flex px-3 py-1 rounded-full bg-[#22C55E]/10 text-[#16A34A] text-xs font-bold uppercase tracking-wide">
-                    {post.category}
+                {post.image && (
+                  <img
+                    src={post.image}
+                    alt={post.imageAlt ?? post.title}
+                    className="w-full h-44 object-cover"
+                  />
+                )}
+                <div className="p-6 flex flex-col gap-3 flex-1">
+                  <div className="flex items-center justify-between">
+                    <span className="inline-flex px-3 py-1 rounded-full bg-[#22C55E]/10 text-[#16A34A] text-xs font-bold uppercase tracking-wide">
+                      {post.category}
+                    </span>
+                    <span className="text-[#0F172A]/30 text-xs">{post.date}</span>
+                  </div>
+                  <h2 className="text-base font-bold text-[#0F172A] leading-snug">{post.title}</h2>
+                  <p className="text-[#0F172A]/60 text-sm leading-relaxed flex-1">{post.excerpt}</p>
+                  <span className="inline-flex items-center gap-1 text-[#22C55E] font-semibold text-sm mt-1">
+                    Lire l&apos;article →
                   </span>
-                  <span className="text-[#0F172A]/30 text-xs">{post.date}</span>
                 </div>
-                <h2 className="text-base font-bold text-[#0F172A] leading-snug">{post.title}</h2>
-                <p className="text-[#0F172A]/60 text-sm leading-relaxed flex-1">{post.excerpt}</p>
-                <span className="inline-flex items-center gap-1 text-[#22C55E] font-semibold text-sm mt-1">
-                  Lire l&apos;article →
-                </span>
               </Link>
             ))}
           </div>
