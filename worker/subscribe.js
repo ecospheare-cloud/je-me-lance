@@ -1,12 +1,17 @@
-// Cloudflare Worker — remplace /api/subscribe et /api/notify de Next.js
-// car GitHub Pages n'héberge que du statique (pas de serveur Node.js).
+// Cloudflare Worker — remplace /api/subscribe, /api/notify et /api/blog-posts
+// de Next.js, car GitHub Pages n'héberge que du statique (pas de serveur Node.js).
+//
+// Routes : POST /        → inscription newsletter + email de bienvenue
+//          POST /notify  → annonce d'un nouvel article à la liste
+//          POST /publish → publication d'un article (commit GitHub direct)
 //
 // Déploiement (gratuit, ~2 min) :
 // 1. https://dash.cloudflare.com → Workers & Pages → Create → Worker
 // 2. Colle ce fichier dans l'éditeur, clique "Deploy"
 // 3. Settings → Variables → ajoute les secrets :
-//      RESEND_API_KEY, RESEND_AUDIENCE_ID, NOTIFY_SECRET
-//    et (optionnel) RESEND_FROM_EMAIL
+//      RESEND_API_KEY, RESEND_AUDIENCE_ID, RESEND_FROM_EMAIL (optionnel),
+//      NOTIFY_SECRET, BLOG_PUBLISH_SECRET, GITHUB_TOKEN,
+//      GITHUB_REPO (ecospheare-cloud/blog), GITHUB_BRANCH (claude/gifted-rubin-9aowu6)
 // 4. Settings → Triggers → autorise le domaine je-me-lance.fr en CORS
 //    (ou laisse "*" pour commencer)
 // 5. Copie l'URL du Worker (ex: https://subscribe.tonpseudo.workers.dev)
@@ -29,6 +34,9 @@ export default {
 
     if (url.pathname === "/notify") {
       return handleNotify(request, env);
+    }
+    if (url.pathname === "/publish") {
+      return handlePublish(request, env);
     }
     return handleSubscribe(request, env);
   },
@@ -133,6 +141,74 @@ async function handleNotify(request, env) {
   }
 
   return json({ success: true });
+}
+
+async function handlePublish(request, env) {
+  const secret = request.headers.get("x-blog-secret");
+  if (!env.BLOG_PUBLISH_SECRET || secret !== env.BLOG_PUBLISH_SECRET) {
+    return json({ error: "Non autorisé" }, 401);
+  }
+  if (!env.GITHUB_TOKEN) {
+    return json({ error: "Publication non configurée (GITHUB_TOKEN manquant)" }, 500);
+  }
+
+  const { title, content, slug, category, excerpt } = await request.json();
+  if (!title || !content || !slug) {
+    return json({ error: "title, content et slug requis" }, 400);
+  }
+
+  const repo = env.GITHUB_REPO || "ecospheare-cloud/blog";
+  const branch = env.GITHUB_BRANCH || "claude/gifted-rubin-9aowu6";
+  const path = "src/data/posts.json";
+  const ghHeaders = {
+    Authorization: `Bearer ${env.GITHUB_TOKEN}`,
+    Accept: "application/vnd.github+json",
+    "Content-Type": "application/json",
+  };
+
+  const currentFileRes = await fetch(
+    `https://api.github.com/repos/${repo}/contents/${path}?ref=${branch}`,
+    { headers: ghHeaders }
+  );
+  if (!currentFileRes.ok) {
+    return json({ error: "Impossible de lire posts.json sur GitHub" }, 502);
+  }
+  const currentFile = await currentFileRes.json();
+  const posts = JSON.parse(atob(currentFile.content));
+
+  if (posts.some((p) => p.slug === slug)) {
+    return json({ error: `Un article avec le slug "${slug}" existe déjà` }, 409);
+  }
+
+  const text = String(content).replace(/\s+/g, " ").trim();
+  const newPost = {
+    slug,
+    category: category || "Article",
+    title,
+    excerpt: excerpt || (text.length > 180 ? `${text.slice(0, 177)}...` : text),
+    date: new Date().toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" }),
+    content: String(content).split(/\n{2,}/).map((p) => p.trim()).filter(Boolean),
+  };
+
+  const updatedPosts = [newPost, ...posts];
+  const fileContent = JSON.stringify(updatedPosts, null, 2) + "\n";
+
+  const commitRes = await fetch(`https://api.github.com/repos/${repo}/contents/${path}`, {
+    method: "PUT",
+    headers: ghHeaders,
+    body: JSON.stringify({
+      message: `Publish: ${title}`,
+      content: btoa(unescape(encodeURIComponent(fileContent))),
+      sha: currentFile.sha,
+      branch,
+    }),
+  });
+
+  if (!commitRes.ok) {
+    return json({ error: "Échec de la publication sur GitHub" }, 502);
+  }
+
+  return json({ success: true, slug, url: `/blog/${slug}` });
 }
 
 function json(data, status = 200) {
