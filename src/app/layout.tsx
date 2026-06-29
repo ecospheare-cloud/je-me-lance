@@ -14,7 +14,7 @@ const ogImage = "https://i.ibb.co/6765s6RW/ff48bff1-df6d-4dcf-a6ec-f0a9f4468b4f.
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Conseil Création Entreprise en France | je-me-lance.fr",
+    default: "Conseil Création Entreprise en France | Je-Me-Lance",
     template: "%s | je-me-lance.fr",
   },
   description:
