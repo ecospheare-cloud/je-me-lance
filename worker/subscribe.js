@@ -32,6 +32,9 @@ export default {
 
     const url = new URL(request.url);
 
+    if (url.pathname === "/debug-audiences") {
+      return handleDebugAudiences(env);
+    }
     if (url.pathname === "/notify") {
       return handleNotify(request, env);
     }
@@ -41,6 +44,14 @@ export default {
     return handleSubscribe(request, env);
   },
 };
+
+async function handleDebugAudiences(env) {
+  const res = await fetch("https://api.resend.com/audiences", {
+    headers: { Authorization: `Bearer ${env.RESEND_API_KEY}` },
+  });
+  const data = await res.json();
+  return json(data, res.status);
+}
 
 async function handleSubscribe(request, env) {
   const { email } = await request.json();
