@@ -14,7 +14,7 @@ const ogImage = "https://i.ibb.co/6765s6RW/ff48bff1-df6d-4dcf-a6ec-f0a9f4468b4f.
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Conseil Création Entreprise en France | Guide 2026",
+    default: "Conseil Création Entreprise en France | je-me-lance.fr",
     template: "%s | je-me-lance.fr",
   },
   description:
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Conseil Création Entreprise en France | Guide 2026",
+    title: "Conseil Création Entreprise en France | je-me-lance.fr",
     description:
       "Conseil création entreprise en France : guides gratuits pour devenir auto-entrepreneur, choisir ton statut juridique et trouver tes premiers clients.",
     url: siteUrl,
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Conseil Création Entreprise en France | Guide 2026",
+    title: "Conseil Création Entreprise en France | je-me-lance.fr",
     description:
       "Conseil création entreprise en France : guides gratuits pour devenir auto-entrepreneur, choisir ton statut juridique et trouver tes premiers clients.",
     images: [ogImage],
