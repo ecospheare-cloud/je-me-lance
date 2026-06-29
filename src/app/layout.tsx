@@ -14,11 +14,11 @@ const ogImage = "https://i.ibb.co/6765s6RW/ff48bff1-df6d-4dcf-a6ec-f0a9f4468b4f.
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Conseil création entreprise en France — Guide gratuit | je-me-lance.fr",
+    default: "Conseil Création Entreprise en France | Guide 2026",
     template: "%s | je-me-lance.fr",
   },
   description:
-    "Tous les conseils pour la création d'entreprise en France : auto-entrepreneur, micro-entreprise, statut juridique, premiers clients. Guides gratuits et concrets pour se lancer.",
+    "Conseil création entreprise en France : guides gratuits pour devenir auto-entrepreneur, choisir ton statut juridique et trouver tes premiers clients.",
   keywords: "conseil création entreprise, créer son entreprise, auto entrepreneur, micro entreprise, statut juridique",
   alternates: {
     canonical: "/",
@@ -39,8 +39,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Conseil création entreprise en France — je-me-lance.fr",
-    description: "Tous les conseils pour créer son entreprise en France. Guides gratuits, sans jargon.",
+    title: "Conseil Création Entreprise en France | Guide 2026",
+    description:
+      "Conseil création entreprise en France : guides gratuits pour devenir auto-entrepreneur, choisir ton statut juridique et trouver tes premiers clients.",
     url: siteUrl,
     siteName: "je-me-lance.fr",
     locale: "fr_FR",
@@ -49,8 +50,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Conseil création entreprise en France — je-me-lance.fr",
-    description: "Tous les conseils pour créer son entreprise en France. Guides gratuits, sans jargon.",
+    title: "Conseil Création Entreprise en France | Guide 2026",
+    description:
+      "Conseil création entreprise en France : guides gratuits pour devenir auto-entrepreneur, choisir ton statut juridique et trouver tes premiers clients.",
     images: [ogImage],
   },
 };
