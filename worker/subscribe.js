@@ -38,6 +38,9 @@ export default {
     if (url.pathname === "/publish") {
       return handlePublish(request, env);
     }
+    if (url.pathname === "/debug-sheet") {
+      return handleDebugSheet(env);
+    }
     return handleSubscribe(request, env);
   },
 };
@@ -92,6 +95,37 @@ async function getGoogleAccessToken(env) {
   if (!tokenRes.ok) return null;
   const { access_token } = await tokenRes.json();
   return access_token;
+}
+
+async function handleDebugSheet(env) {
+  const info = {
+    hasClientEmail: !!env.GOOGLE_CLIENT_EMAIL,
+    hasPrivateKey: !!env.GOOGLE_PRIVATE_KEY,
+    hasSheetId: !!env.GOOGLE_SHEET_ID,
+  };
+  try {
+    const accessToken = await getGoogleAccessToken(env);
+    info.gotAccessToken = !!accessToken;
+    if (!accessToken) return json(info, 500);
+
+    const res = await fetch(
+      `https://sheets.googleapis.com/v4/spreadsheets/${env.GOOGLE_SHEET_ID}/values/A:B:append?valueInputOption=RAW`,
+      {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${accessToken}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ values: [["debug-test@example.com", new Date().toISOString()]] }),
+      }
+    );
+    info.sheetStatus = res.status;
+    info.sheetResponse = await res.text();
+    return json(info, res.ok ? 200 : 502);
+  } catch (err) {
+    info.error = String(err);
+    return json(info, 500);
+  }
 }
 
 async function appendToSheet(email, env) {
