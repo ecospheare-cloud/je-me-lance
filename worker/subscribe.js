@@ -76,13 +76,19 @@ async function handleSubscribe(request, env) {
     body: JSON.stringify({
       from: FROM_EMAIL,
       to: email,
-      subject: "Merci pour ton inscription ! 🎉",
+      subject: "Bienvenue dans la communauté je-me-lance.fr 🎉",
       html: `
-        <div style="font-family: sans-serif; max-width: 480px; margin: auto;">
-          <h2 style="color:#16A34A;">Bienvenue sur je-me-lance.fr 👋</h2>
-          <p>Merci pour ton inscription ! Tu recevras désormais un email chaque fois qu'un nouvel article est publié.</p>
-          <p><a href="https://je-me-lance.fr/blog" style="color:#22C55E; font-weight:bold;">Voir tous les articles →</a></p>
-          <p style="color:#94A3B8; font-size:12px; margin-top:32px;">Tu peux te désinscrire à tout moment.</p>
+        <div style="font-family: sans-serif; max-width: 480px; margin: auto; color:#1E293B;">
+          <h2 style="color:#16A34A;">Bienvenue 👋</h2>
+          <p>Merci de t'être inscrit ! Tu rejoins une communauté de personnes qui veulent se lancer dans l'entrepreneuriat, sans bullshit.</p>
+          <p>Voici ce que tu vas recevoir :</p>
+          <ul style="padding-left: 20px;">
+            <li>Des conseils concrets pour créer et faire grandir ton entreprise</li>
+            <li>Un email à chaque nouvel article publié sur le blog</li>
+            <li>Pas de spam, juste du contenu utile</li>
+          </ul>
+          <p><a href="https://je-me-lance.fr/blog" style="display:inline-block; margin-top:8px; padding:10px 20px; background:#22C55E; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold;">Découvrir les articles →</a></p>
+          <p style="color:#94A3B8; font-size:12px; margin-top:32px;">Tu peux te désinscrire à tout moment en un clic.</p>
         </div>
       `,
     }),
