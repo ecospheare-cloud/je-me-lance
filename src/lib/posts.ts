@@ -16,6 +16,7 @@ export type Post = {
   image?: string;
   imageAlt?: string;
   quiz?: QuizQuestion[];
+  keyPoints?: string[];
 };
 
 export const posts: Post[] = postsData as Post[];

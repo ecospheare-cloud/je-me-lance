@@ -79,9 +79,22 @@ export default function ArticleContent({ post }: { post: Post }) {
       )}
 
       {/* Encadré résumé */}
-      <div className="mb-8 rounded-2xl border-l-4 border-[#22C55E] bg-[#F0FDF4] px-6 py-5">
-        <p className="text-xs font-bold uppercase tracking-widest text-[#16A34A] mb-2">En résumé</p>
-        <p className="text-[#0F172A]/80 text-base leading-relaxed">{post.excerpt}</p>
+      <div className="mb-8 rounded-2xl border border-[#22C55E]/30 bg-[#F0FDF4] px-6 py-5">
+        <div className="flex items-center gap-2 mb-3">
+          <span className="text-base">📋</span>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#16A34A]">Ce que tu vas apprendre</p>
+        </div>
+        <p className="text-[#0F172A]/70 text-sm mb-3 leading-relaxed">{post.excerpt}</p>
+        {post.keyPoints && post.keyPoints.length > 0 && (
+          <ul className="flex flex-col gap-2 mt-3">
+            {post.keyPoints.map((point, i) => (
+              <li key={i} className="flex items-start gap-2 text-sm text-[#0F172A]/80">
+                <span className="text-[#22C55E] font-bold mt-0.5 shrink-0">✓</span>
+                <span>{point}</span>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
 
       {/* Quiz interactif */}
