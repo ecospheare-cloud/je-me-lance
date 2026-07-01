@@ -1,5 +1,11 @@
 import postsData from "@/data/posts.json";
 
+export type QuizQuestion = {
+  question: string;
+  options: string[];
+  correct: number;
+};
+
 export type Post = {
   slug: string;
   category: string;
@@ -9,6 +15,7 @@ export type Post = {
   content: string[];
   image?: string;
   imageAlt?: string;
+  quiz?: QuizQuestion[];
 };
 
 export const posts: Post[] = postsData as Post[];

@@ -4,6 +4,7 @@ import { useState, type ReactNode } from "react";
 import Link from "next/link";
 import { Post } from "@/lib/posts";
 import RelatedPosts from "@/components/RelatedPosts";
+import ArticleQuiz from "@/components/ArticleQuiz";
 
 function renderInline(text: string) {
   const linkPattern = /\[([^\]]+)\]\(([^)]+)\)/g;
@@ -75,6 +76,17 @@ export default function ArticleContent({ post }: { post: Post }) {
           alt={post.imageAlt ?? post.title}
           className="w-full rounded-2xl mb-10 object-cover h-80"
         />
+      )}
+
+      {/* Encadré résumé */}
+      <div className="mb-8 rounded-2xl border-l-4 border-[#22C55E] bg-[#F0FDF4] px-6 py-5">
+        <p className="text-xs font-bold uppercase tracking-widest text-[#16A34A] mb-2">En résumé</p>
+        <p className="text-[#0F172A]/80 text-base leading-relaxed">{post.excerpt}</p>
+      </div>
+
+      {/* Quiz interactif */}
+      {post.quiz && post.quiz.length > 0 && (
+        <ArticleQuiz questions={post.quiz} />
       )}
 
       <div className="flex flex-col gap-5">

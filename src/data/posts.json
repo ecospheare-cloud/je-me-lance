@@ -37,6 +37,35 @@
       "Oui, il est fréquent et recommandé de combiner plusieurs structures (financement, gestion, juridique) selon les besoins du projet.",
       "**À partir de quel montant d'investissement faut-il solliciter Bpifrance ?**",
       "Au-delà de 50 000 € de besoin de financement, les dispositifs de garantie et de prêt Bpifrance deviennent particulièrement pertinents."
+    ],
+    "quiz": [
+      {
+        "question": "Le conseil Bpifrance Création est-il payant ?",
+        "options": [
+          "Non, les diagnostics et l'information de Bpifrance Création sont gratuits et accessibles...",
+          "Les prêts d'honneur varient généralement de 5 000 à 50 000 € selon les antennes locales...",
+          "Oui, c'est une spécificité du réseau BGE qui propose un suivi de gestion sur plusieurs..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Quel est le montant moyen d'un prêt d'honneur Initiative France ?",
+        "options": [
+          "Les prêts d'honneur varient généralement de 5 000 à 50 000 € selon les antennes locales...",
+          "Non, les diagnostics et l'information de Bpifrance Création sont gratuits et accessibles...",
+          "Oui, c'est une spécificité du réseau BGE qui propose un suivi de gestion sur plusieurs..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Les BGE accompagnent-elles après la création de l'entreprise ?",
+        "options": [
+          "Oui, c'est une spécificité du réseau BGE qui propose un suivi de gestion sur plusieurs...",
+          "Non, les diagnostics et l'information de Bpifrance Création sont gratuits et accessibles...",
+          "Les prêts d'honneur varient généralement de 5 000 à 50 000 € selon les antennes locales..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -76,6 +105,35 @@
       "Non, le métier de consultant n'étant pas réglementé, aucun diplôme spécifique n'est requis pour s'immatriculer.",
       "**Une SELARL est-elle obligatoire pour exercer en libéral ?**",
       "Non, seules certaines professions réglementées imposent une forme de Société d'Exercice Libéral ; les autres peuvent exercer en entreprise individuelle ou société classique."
+    ],
+    "quiz": [
+      {
+        "question": "Comment savoir si mon activité libérale est réglementée ?",
+        "options": [
+          "Il faut vérifier auprès de l'ordre professionnel concerné ou de la CCI si ton activité...",
+          "Oui, pour les activités libérales non réglementées principalement, sous réserve de...",
+          "La CIPAV est la caisse de retraite complémentaire de certaines professions libérales..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Peut-on exercer une activité libérale en micro-entreprise ?",
+        "options": [
+          "Oui, pour les activités libérales non réglementées principalement, sous réserve de...",
+          "Il faut vérifier auprès de l'ordre professionnel concerné ou de la CCI si ton activité...",
+          "La CIPAV est la caisse de retraite complémentaire de certaines professions libérales..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Qu'est-ce que la CIPAV ?",
+        "options": [
+          "La CIPAV est la caisse de retraite complémentaire de certaines professions libérales...",
+          "Il faut vérifier auprès de l'ordre professionnel concerné ou de la CCI si ton activité...",
+          "Oui, pour les activités libérales non réglementées principalement, sous réserve de..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -116,6 +174,35 @@
       "Non, l'Adie s'adresse à toute personne n'ayant pas accès au crédit bancaire classique, qu'elle soit en emploi, au chômage ou étudiante.",
       "**Peut-on être accompagné par plusieurs organismes en même temps ?**",
       "Oui, il est courant de combiner plusieurs structures selon les besoins (financement, gestion, juridique) à différentes étapes du projet."
+    ],
+    "quiz": [
+      {
+        "question": "Quel organisme contacter en premier pour créer son entreprise ?",
+        "options": [
+          "La CCI ou la CMA selon la nature de l'activité (commerciale/service ou artisanale)...",
+          "Certaines prestations BGE sont gratuites, d'autres (formations longues, accompagnement...",
+          "C'est une association qui accompagne les créateurs et repreneurs d'entreprise à fort..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "L'accompagnement BGE est-il payant ?",
+        "options": [
+          "Certaines prestations BGE sont gratuites, d'autres (formations longues, accompagnement...",
+          "La CCI ou la CMA selon la nature de l'activité (commerciale/service ou artisanale)...",
+          "C'est une association qui accompagne les créateurs et repreneurs d'entreprise à fort..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Qu'est-ce que Réseau Entreprendre ?",
+        "options": [
+          "C'est une association qui accompagne les créateurs et repreneurs d'entreprise à fort...",
+          "La CCI ou la CMA selon la nature de l'activité (commerciale/service ou artisanale)...",
+          "Certaines prestations BGE sont gratuites, d'autres (formations longues, accompagnement..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -159,6 +246,35 @@
       "Pour les artisans, oui, il en est l'équivalent officiel puisque les artisans relèvent du Répertoire des Métiers et non du registre du commerce.",
       "**Pourquoi des sites facturent-ils ce document ?**",
       "Certaines plateformes facturent un service de mise en forme ou de récupération automatisée, mais le document de base reste accessible gratuitement en démarche directe."
+    ],
+    "quiz": [
+      {
+        "question": "L'extrait d'immatriculation est-il vraiment gratuit ?",
+        "options": [
+          "Oui, il est gratuit via le site officiel du Registre National des Entreprises ou l'espace...",
+          "Il était auparavant appelé extrait D1, avant la fusion des registres en extrait du...",
+          "Le téléchargement est immédiat une fois l'immatriculation effective et le compte en ligne..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Quel est l'ancien nom de ce document ?",
+        "options": [
+          "Il était auparavant appelé extrait D1, avant la fusion des registres en extrait du...",
+          "Oui, il est gratuit via le site officiel du Registre National des Entreprises ou l'espace...",
+          "Le téléchargement est immédiat une fois l'immatriculation effective et le compte en ligne..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Combien de temps faut-il pour l'obtenir ?",
+        "options": [
+          "Le téléchargement est immédiat une fois l'immatriculation effective et le compte en ligne...",
+          "Oui, il est gratuit via le site officiel du Registre National des Entreprises ou l'espace...",
+          "Il était auparavant appelé extrait D1, avant la fusion des registres en extrait du..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -197,6 +313,35 @@
       "Oui, ces accompagnements sont complémentaires et peuvent même renforcer un dossier de demande d'aide financière.",
       "**Comment contacter Action'elles ?**",
       "Le réseau dispose d'antennes régionales et d'un site internet permettant de candidater au programme de mentorat selon sa localisation."
+    ],
+    "quiz": [
+      {
+        "question": "Ces associations sont-elles gratuites ?",
+        "options": [
+          "La plupart proposent un accompagnement gratuit ou à coût très réduit, financé par des...",
+          "Non, l'association cible les femmes de plus de 45 ans en reconversion, qu'elles soient...",
+          "C'est un incubateur régional dédié aux femmes porteuses de projets à fort potentiel..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Force Femmes s'adresse-t-elle uniquement aux femmes au chômage ?",
+        "options": [
+          "Non, l'association cible les femmes de plus de 45 ans en reconversion, qu'elles soient...",
+          "La plupart proposent un accompagnement gratuit ou à coût très réduit, financé par des...",
+          "C'est un incubateur régional dédié aux femmes porteuses de projets à fort potentiel..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Qu'est-ce que le programme Les Premières ?",
+        "options": [
+          "C'est un incubateur régional dédié aux femmes porteuses de projets à fort potentiel...",
+          "La plupart proposent un accompagnement gratuit ou à coût très réduit, financé par des...",
+          "Non, l'association cible les femmes de plus de 45 ans en reconversion, qu'elles soient..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -240,6 +385,35 @@
       "C'est un conseiller Cap Emploi qui accompagne la constitution et le dépôt du dossier auprès de l'AGEFIPH.",
       "**Peut-on obtenir l'aide AGEFIPH pour une micro-entreprise ?**",
       "Oui, l'aide est ouverte à tous les statuts juridiques, y compris la micro-entreprise, à condition de remplir les critères de contrôle effectif de l'activité."
+    ],
+    "quiz": [
+      {
+        "question": "Quel est le montant exact de l'aide AGEFIPH création d'entreprise ?",
+        "options": [
+          "L'aide forfaitaire s'élève à 6 300 € pour une activité créée à temps plein, versée après...",
+          "Oui, ces deux dispositifs répondent à des logiques différentes (subvention directe pour...",
+          "La RQTH ou une reconnaissance équivalente (invalidité, carte mobilité inclusion, rente..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "L'aide AGEFIPH est-elle cumulable avec l'ACRE ?",
+        "options": [
+          "Oui, ces deux dispositifs répondent à des logiques différentes (subvention directe pour...",
+          "L'aide forfaitaire s'élève à 6 300 € pour une activité créée à temps plein, versée après...",
+          "La RQTH ou une reconnaissance équivalente (invalidité, carte mobilité inclusion, rente..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Faut-il avoir la RQTH pour bénéficier de l'aide AGEFIPH ?",
+        "options": [
+          "La RQTH ou une reconnaissance équivalente (invalidité, carte mobilité inclusion, rente...",
+          "L'aide forfaitaire s'élève à 6 300 € pour une activité créée à temps plein, versée après...",
+          "Oui, ces deux dispositifs répondent à des logiques différentes (subvention directe pour..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -283,6 +457,35 @@
       "Un conseiller Cap Emploi assure un accompagnement spécialisé, du diagnostic du projet jusqu'au suivi après l'immatriculation.",
       "**La RQTH doit-elle être renouvelée pour garder ses droits ?**",
       "Oui, la RQTH est accordée pour une durée déterminée (généralement 5 ans) et doit être renouvelée auprès de la MDPH avant son échéance."
+    ],
+    "quiz": [
+      {
+        "question": "Combien de temps faut-il pour obtenir la RQTH ?",
+        "options": [
+          "Le délai d'instruction par la MDPH varie généralement entre 3 et 6 mois selon les...",
+          "Oui, la RQTH ou une reconnaissance équivalente est une condition d'éligibilité à l'aide...",
+          "Oui, la RQTH et l'ACRE sont deux dispositifs cumulables car ils ne portent pas sur le..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "La RQTH est-elle obligatoire pour bénéficier de l'aide AGEFIPH ?",
+        "options": [
+          "Oui, la RQTH ou une reconnaissance équivalente est une condition d'éligibilité à l'aide...",
+          "Le délai d'instruction par la MDPH varie généralement entre 3 et 6 mois selon les...",
+          "Oui, la RQTH et l'ACRE sont deux dispositifs cumulables car ils ne portent pas sur le..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Peut-on cumuler la RQTH avec l'ACRE ?",
+        "options": [
+          "Oui, la RQTH et l'ACRE sont deux dispositifs cumulables car ils ne portent pas sur le...",
+          "Le délai d'instruction par la MDPH varie généralement entre 3 et 6 mois selon les...",
+          "Oui, la RQTH ou une reconnaissance équivalente est une condition d'éligibilité à l'aide..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -328,6 +531,35 @@
       "Le pacte d'associés est un document complémentaire aux statuts qui organise les relations entre associés ; il n'est pas obligatoire mais fortement recommandé dès plusieurs associés.",
       "**Les plateformes juridiques en ligne sont-elles fiables ?**",
       "Oui pour les projets simples et standards, mais elles ont leurs limites dès que le projet comporte des spécificités nécessitant un conseil personnalisé."
+    ],
+    "quiz": [
+      {
+        "question": "Le conseil juridique en CCI est-il vraiment gratuit ?",
+        "options": [
+          "Oui, les permanences juridiques de premier niveau proposées par les CCI et CMA sont...",
+          "Les honoraires varient généralement de 800 à 2 500 € selon la complexité du projet et la...",
+          "Non, la micro-entreprise ne nécessite pas de statuts ni d'accompagnement juridique..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Combien coûte un avocat pour créer une société ?",
+        "options": [
+          "Les honoraires varient généralement de 800 à 2 500 € selon la complexité du projet et la...",
+          "Oui, les permanences juridiques de premier niveau proposées par les CCI et CMA sont...",
+          "Non, la micro-entreprise ne nécessite pas de statuts ni d'accompagnement juridique..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ai-je besoin d'un avocat pour créer une micro-entreprise ?",
+        "options": [
+          "Non, la micro-entreprise ne nécessite pas de statuts ni d'accompagnement juridique...",
+          "Oui, les permanences juridiques de premier niveau proposées par les CCI et CMA sont...",
+          "Les honoraires varient généralement de 800 à 2 500 € selon la complexité du projet et la..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -374,6 +606,35 @@
       "Oui, à condition d'avoir moins de 26 ans, indépendamment du statut étudiant, salarié ou demandeur d'emploi.",
       "**Peut-on cumuler un prêt d'honneur jeunes avec l'ACRE ?**",
       "Oui, ces deux dispositifs sont cumulables car ils répondent à des besoins différents : financement de départ pour le prêt d'honneur, réduction de charges sociales pour l'ACRE."
+    ],
+    "quiz": [
+      {
+        "question": "Peut-on créer une entreprise dès 18 ans en France ?",
+        "options": [
+          "Oui, la majorité civile suffit pour créer une entreprise individuelle ou une société,...",
+          "Les prêts d'honneur jeunes de certains réseaux associatifs, certains concours étudiants...",
+          "Non, plusieurs dispositifs (Adie, prêts d'honneur, ACRE) sont justement conçus pour les..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Quelles aides financières sont réservées aux moins de 26 ans ?",
+        "options": [
+          "Les prêts d'honneur jeunes de certains réseaux associatifs, certains concours étudiants...",
+          "Oui, la majorité civile suffit pour créer une entreprise individuelle ou une société,...",
+          "Non, plusieurs dispositifs (Adie, prêts d'honneur, ACRE) sont justement conçus pour les..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Faut-il un apport personnel pour créer son entreprise jeune ?",
+        "options": [
+          "Non, plusieurs dispositifs (Adie, prêts d'honneur, ACRE) sont justement conçus pour les...",
+          "Oui, la majorité civile suffit pour créer une entreprise individuelle ou une société,...",
+          "Les prêts d'honneur jeunes de certains réseaux associatifs, certains concours étudiants..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -420,6 +681,35 @@
       "Consulte le site internet de ton Conseil Départemental et de ton Conseil Régional, ou prends rendez-vous avec ta CCI locale qui centralise généralement ces informations.",
       "**Les aides régionales sont-elles soumises à conditions de ressources ?**",
       "Cela dépend du dispositif : certaines aides sont ouvertes à tous les créateurs, d'autres ciblent des publics spécifiques (demandeurs d'emploi, jeunes, femmes, zones prioritaires)."
+    ],
+    "quiz": [
+      {
+        "question": "Toutes les régions proposent-elles les mêmes aides à la création d'entreprise ?",
+        "options": [
+          "Non, chaque région définit ses propres dispositifs et montants, qui varient fortement...",
+          "Oui dans la grande majorité des cas, les aides territoriales sont cumulables avec les...",
+          "Avant, dans la quasi-totalité des cas. Une demande déposée après le début de l'activité..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Peut-on cumuler une aide régionale avec l'ACRE et l'ARCE ?",
+        "options": [
+          "Oui dans la grande majorité des cas, les aides territoriales sont cumulables avec les...",
+          "Non, chaque région définit ses propres dispositifs et montants, qui varient fortement...",
+          "Avant, dans la quasi-totalité des cas. Une demande déposée après le début de l'activité..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Faut-il déposer la demande avant ou après l'immatriculation ?",
+        "options": [
+          "Avant, dans la quasi-totalité des cas. Une demande déposée après le début de l'activité...",
+          "Non, chaque région définit ses propres dispositifs et montants, qui varient fortement...",
+          "Oui dans la grande majorité des cas, les aides territoriales sont cumulables avec les..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -459,6 +749,35 @@
       "Un rendez-vous diagnostic auprès de la CCI Occitanie ou de BGE reste le moyen le plus fiable pour connaître l'ensemble des dispositifs mobilisables selon ton projet précis.",
       "**Ces aides sont-elles automatiques à la création de l'entreprise ?**",
       "Non, elles nécessitent presque toutes un dossier de demande déposé avant l'immatriculation, avec un dossier de présentation du projet à l'appui."
+    ],
+    "quiz": [
+      {
+        "question": "Le Pass Entreprendre Occitanie est-il ouvert à tous les secteurs d'activité ?",
+        "options": [
+          "La plupart des secteurs sont éligibles, mais certains dispositifs ciblent prioritairement...",
+          "Oui, ces dispositifs sont complémentaires et la plupart des aides régionales n'excluent...",
+          "Il faut généralement que le siège ou l'activité de l'entreprise soit implanté en région..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Peut-on cumuler les aides régionales Occitanie avec l'ACRE ?",
+        "options": [
+          "Oui, ces dispositifs sont complémentaires et la plupart des aides régionales n'excluent...",
+          "La plupart des secteurs sont éligibles, mais certains dispositifs ciblent prioritairement...",
+          "Il faut généralement que le siège ou l'activité de l'entreprise soit implanté en région..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Faut-il habiter en Occitanie pour bénéficier de ces aides ?",
+        "options": [
+          "Il faut généralement que le siège ou l'activité de l'entreprise soit implanté en région...",
+          "La plupart des secteurs sont éligibles, mais certains dispositifs ciblent prioritairement...",
+          "Oui, ces dispositifs sont complémentaires et la plupart des aides régionales n'excluent..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -503,6 +822,35 @@
       "Les coûts varient fortement selon le local et le matériel (table d'ostéopathie, mobilier), mais comptent généralement entre 3 000 et 15 000 € pour un démarrage en solo.",
       "**Peut-on exercer l'ostéopathie en tant que salarié plutôt qu'en libéral ?**",
       "Oui, certains centres de santé ou cliniques emploient des ostéopathes salariés, mais l'installation en cabinet libéral reste le modèle le plus répandu de la profession."
+    ],
+    "quiz": [
+      {
+        "question": "Faut-il un diplôme spécifique pour ouvrir un cabinet d'ostéopathie ?",
+        "options": [
+          "Oui, un diplôme d'ostéopathie reconnu par l'ARS est obligatoire, suivi d'un...",
+          "La micro-entreprise reste le choix le plus fréquent au démarrage, avant un éventuel...",
+          "Oui, sans exception, pour toute pratique de l'ostéopathie en France, qu'elle soit exercée..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Quel statut juridique est le plus utilisé par les ostéopathes débutants ?",
+        "options": [
+          "La micro-entreprise reste le choix le plus fréquent au démarrage, avant un éventuel...",
+          "Oui, un diplôme d'ostéopathie reconnu par l'ARS est obligatoire, suivi d'un...",
+          "Oui, sans exception, pour toute pratique de l'ostéopathie en France, qu'elle soit exercée..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "L'assurance RCP est-elle vraiment obligatoire ?",
+        "options": [
+          "Oui, sans exception, pour toute pratique de l'ostéopathie en France, qu'elle soit exercée...",
+          "Oui, un diplôme d'ostéopathie reconnu par l'ARS est obligatoire, suivi d'un...",
+          "La micro-entreprise reste le choix le plus fréquent au démarrage, avant un éventuel..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -543,6 +891,35 @@
       "Il figure sur ton extrait d'immatriculation (Kbis ou équivalent) ainsi que sur tous tes documents officiels Insee/Urssaf.",
       "**Un mauvais code APE peut-il bloquer une demande de subvention ?**",
       "Dans certains cas oui, si l'aide cible spécifiquement certains secteurs d'activité identifiés par leur code APE. Il est donc important de le vérifier avant toute demande."
+    ],
+    "quiz": [
+      {
+        "question": "Le code APE a-t-il une valeur juridique ?",
+        "options": [
+          "Non, il s'agit d'un code statistique de l'Insee, sans valeur contraignante sur le plan...",
+          "Oui, à tout moment et gratuitement, en contactant l'Insee pour signaler une activité...",
+          "Non, la fiscalité dépend du statut juridique et du régime fiscal choisi, pas du code APE,..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Peut-on changer son code APE après la création de l'entreprise ?",
+        "options": [
+          "Oui, à tout moment et gratuitement, en contactant l'Insee pour signaler une activité...",
+          "Non, il s'agit d'un code statistique de l'Insee, sans valeur contraignante sur le plan...",
+          "Non, la fiscalité dépend du statut juridique et du régime fiscal choisi, pas du code APE,..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Le code APE déterminé-t-il les impôts à payer ?",
+        "options": [
+          "Non, la fiscalité dépend du statut juridique et du régime fiscal choisi, pas du code APE,...",
+          "Non, il s'agit d'un code statistique de l'Insee, sans valeur contraignante sur le plan...",
+          "Oui, à tout moment et gratuitement, en contactant l'Insee pour signaler une activité..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -593,6 +970,35 @@
       "Avec le maintien de l'ARE, tu continues de percevoir ton allocation complète puisqu'aucun revenu n'est déduit. Tu dois quand même déclarer un chiffre d'affaires nul chaque mois.",
       "**Peut-on demander l'ARCE après avoir déjà commencé son activité ?**",
       "Il est fortement recommandé de déposer la demande avant le début effectif de l'activité. Une demande tardive peut être refusée ou complexifiée, d'où l'importance d'anticiper avec ton conseiller dès les premières démarches."
+    ],
+    "quiz": [
+      {
+        "question": "Peut-on cumuler l'ARE maintenue et l'ARCE ?",
+        "options": [
+          "Non, il faut choisir entre les deux dispositifs au moment de la création de l'entreprise....",
+          "Le maintien de l'ARE dure tant que tu conserves des droits restants à l'allocation...",
+          "Non, l'ACRE est ouverte à de nombreux profils (demandeurs d'emploi, jeunes, bénéficiaires..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Combien de temps dure le maintien de l'ARE pendant la création d'entreprise ?",
+        "options": [
+          "Le maintien de l'ARE dure tant que tu conserves des droits restants à l'allocation...",
+          "Non, il faut choisir entre les deux dispositifs au moment de la création de l'entreprise....",
+          "Non, l'ACRE est ouverte à de nombreux profils (demandeurs d'emploi, jeunes, bénéficiaires..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Faut-il être inscrit à France Travail pour bénéficier de l'ACRE ?",
+        "options": [
+          "Non, l'ACRE est ouverte à de nombreux profils (demandeurs d'emploi, jeunes, bénéficiaires...",
+          "Non, il faut choisir entre les deux dispositifs au moment de la création de l'entreprise....",
+          "Le maintien de l'ARE dure tant que tu conserves des droits restants à l'allocation..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -635,6 +1041,35 @@
       "Non, il est désormais facultatif pour la majorité des métiers artisanaux, sauf exceptions réglementées propres à certaines professions.",
       "**Peut-on s'inscrire à la CMA si on n'a pas de diplôme dans le métier ?**",
       "Oui dans de nombreux cas, à condition de justifier d'une expérience professionnelle équivalente. Certains métiers réglementés exigent toutefois une qualification spécifique."
+    ],
+    "quiz": [
+      {
+        "question": "Qui doit s'inscrire à la Chambre des Métiers et de l'Artisanat ?",
+        "options": [
+          "Toute personne exerçant une activité artisanale à titre principal, quel que soit son...",
+          "L'inscription est gratuite pour les micro-entrepreneurs depuis la réforme ayant supprimé...",
+          "Sur le site officiel de l'INPI ou directement depuis l'espace en ligne de ta CMA..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Combien coûte l'inscription à la Chambre des Métiers pour un auto-entrepreneur ?",
+        "options": [
+          "L'inscription est gratuite pour les micro-entrepreneurs depuis la réforme ayant supprimé...",
+          "Toute personne exerçant une activité artisanale à titre principal, quel que soit son...",
+          "Sur le site officiel de l'INPI ou directement depuis l'espace en ligne de ta CMA..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Où télécharger son extrait d'immatriculation gratuitement ?",
+        "options": [
+          "Sur le site officiel de l'INPI ou directement depuis l'espace en ligne de ta CMA...",
+          "Toute personne exerçant une activité artisanale à titre principal, quel que soit son...",
+          "L'inscription est gratuite pour les micro-entrepreneurs depuis la réforme ayant supprimé..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -677,6 +1112,35 @@
       "Non, aucun capital social minimum n'est exigé pour le statut de micro-entrepreneur, contrairement à certaines formes de sociétés.",
       "**Peut-on créer sa micro-entreprise gratuitement tout en étant au chômage ?**",
       "Oui, et tu peux en plus bénéficier d'aides financières complémentaires (ARE maintenue, ARCE, ACRE) en passant par ton conseiller France Travail."
+    ],
+    "quiz": [
+      {
+        "question": "Est-il vraiment gratuit de créer une micro-entreprise ?",
+        "options": [
+          "Oui, l'immatriculation via le Guichet unique des formalités d'entreprises est entièrement...",
+          "Ces sites ne sont pas officiels et facturent un service d'accompagnement administratif...",
+          "Généralement entre 1 et 3 semaines après le dépôt du dossier complet sur le portail..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Pourquoi certains sites font-ils payer la création de micro-entreprise ?",
+        "options": [
+          "Ces sites ne sont pas officiels et facturent un service d'accompagnement administratif...",
+          "Oui, l'immatriculation via le Guichet unique des formalités d'entreprises est entièrement...",
+          "Généralement entre 1 et 3 semaines après le dépôt du dossier complet sur le portail..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Combien de temps faut-il pour recevoir son numéro SIRET ?",
+        "options": [
+          "Généralement entre 1 et 3 semaines après le dépôt du dossier complet sur le portail...",
+          "Oui, l'immatriculation via le Guichet unique des formalités d'entreprises est entièrement...",
+          "Ces sites ne sont pas officiels et facturent un service d'accompagnement administratif..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -786,6 +1250,35 @@
       "L'AGEFIPH finance intégralement les technologies d'assistance (logiciels de synthèse vocale, interfaces adaptées) et l'aménagement ergonomique du poste de travail. Des solutions de prêt ou de location existent aussi via les MDPH et des structures comme Atalan.",
       "**Qu'est-ce que la certification Entreprise Adaptée apporte concrètement ?**",
       "Elle ouvre l'accès à des marchés publics réservés, à des clauses d'insertion favorables dans les appels d'offres, et aux programmes de diversité fournisseurs des grandes entreprises — un vrai levier commercial en plus du soutien financier."
+    ],
+    "quiz": [
+      {
+        "question": "Quelles sont les principales aides pour créer une entreprise en situation de handicap ?",
+        "options": [
+          "Les quatre piliers sont l'AGEFIPH (subventions non remboursables pour équipements et...",
+          "Oui, l'AAH reste maintenue les premières années d'activité, sous condition que vos...",
+          "Commencez par votre MDPH locale ou Cap Emploi pour un bilan de projet gratuit. Ils vous..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Peut-on garder l'AAH en créant son entreprise ?",
+        "options": [
+          "Oui, l'AAH reste maintenue les premières années d'activité, sous condition que vos...",
+          "Les quatre piliers sont l'AGEFIPH (subventions non remboursables pour équipements et...",
+          "Commencez par votre MDPH locale ou Cap Emploi pour un bilan de projet gratuit. Ils vous..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Qui contacter en premier pour démarrer ?",
+        "options": [
+          "Commencez par votre MDPH locale ou Cap Emploi pour un bilan de projet gratuit. Ils vous...",
+          "Les quatre piliers sont l'AGEFIPH (subventions non remboursables pour équipements et...",
+          "Oui, l'AAH reste maintenue les premières années d'activité, sous condition que vos..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -882,6 +1375,35 @@
       "Les Premières, WILLA et Les Pionnières pour un projet innovant ou tech ; Force Femmes si vous avez plus de 45 ans et êtes sans emploi ; Mampreneures si vous êtes mère entrepreneure ; et la CMA pour l'artisanat et les métiers.",
       "**Peut-on cumuler plusieurs aides à la création d'entreprise ?**",
       "Oui. La combinaison la plus efficace reste Garantie ÉGALITÉ Femmes + prêt d'honneur + aide régionale, qui peut financer l'intégralité d'un projet sans apport personnel massif. Commencez par un diagnostic gratuit auprès de votre CCI ou CIDFF pour identifier les aides cumulables selon votre profil."
+    ],
+    "quiz": [
+      {
+        "question": "Quelles sont les principales aides financières pour les femmes entrepreneures en 2026 ?",
+        "options": [
+          "Les quatre dispositifs phares sont la Garantie ÉGALITÉ Femmes (jusqu'à 50 000 € de crédit...",
+          "Vous devez avoir créé, repris ou développé votre entreprise depuis moins de 3 ans. La...",
+          "Non, l'accompagnement NACRE est gratuit ou à très faible coût selon les régions. Il..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Comment obtenir la Garantie ÉGALITÉ Femmes ?",
+        "options": [
+          "Vous devez avoir créé, repris ou développé votre entreprise depuis moins de 3 ans. La...",
+          "Les quatre dispositifs phares sont la Garantie ÉGALITÉ Femmes (jusqu'à 50 000 € de crédit...",
+          "Non, l'accompagnement NACRE est gratuit ou à très faible coût selon les régions. Il..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Le dispositif NACRE est-il payant ?",
+        "options": [
+          "Non, l'accompagnement NACRE est gratuit ou à très faible coût selon les régions. Il...",
+          "Les quatre dispositifs phares sont la Garantie ÉGALITÉ Femmes (jusqu'à 50 000 € de crédit...",
+          "Vous devez avoir créé, repris ou développé votre entreprise depuis moins de 3 ans. La..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -965,6 +1487,35 @@
       "Demande systématiquement l'ACRE dès la création, pour une réduction de 50 % des cotisations sociales la première année. Choisis l'ARE pour la sécurité ou l'ARCE pour le capital, jamais les deux ensemble. La Garantie Égalité Femmes combinée à un prêt d'honneur débloque l'accès bancaire sans apport personnel lourd. Intègre un réseau féminin dès le départ : mentorat et mise en réseau décuplent tes chances. Consulte ta région, car les subventions et prêts locaux complètent souvent le dispositif national.",
       "Le vrai pouvoir n'est pas une aide isolée, c'est leur orchestration stratégique. Commence par France Travail et un accompagnateur agréé pour dessiner ton parcours personnalisé, puis active les leviers l'un après l'autre.",
       "Ton statut de demandeuse d'emploi n'est pas un handicap : c'est ton sésame vers le financement le plus accessible du marché. Pour aller plus loin, consulte aussi notre guide sur l'[accompagnement création entreprise pour femmes](/blog/accompagnement-creation-entreprise-femmes), notre article sur le [cumul auto-entrepreneur et chômage](/blog/auto-entrepreneur-et-chomage), et notre panorama de l'[accompagnement gratuit à la création d'entreprise](/blog/accompagnement-creation-entreprise-gratuit-2026)."
+    ],
+    "quiz": [
+      {
+        "question": "Quelles aides peut-on cumuler pour créer son entreprise au chômage en 2026 ?",
+        "options": [
+          "Tu peux cumuler l'ARE ou l'ARCE avec l'ACRE, la Garantie Égalité Femmes, un prêt...",
+          "Ça dépend de ton besoin. Garde l'ARE si tu as peu d'économies et besoin d'un revenu...",
+          "C'est un dispositif de France Active qui couvre jusqu'à 80 % d'un prêt bancaire, dans la..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Faut-il choisir l'ARE ou l'ARCE quand on crée son entreprise au chômage ?",
+        "options": [
+          "Ça dépend de ton besoin. Garde l'ARE si tu as peu d'économies et besoin d'un revenu...",
+          "Tu peux cumuler l'ARE ou l'ARCE avec l'ACRE, la Garantie Égalité Femmes, un prêt...",
+          "C'est un dispositif de France Active qui couvre jusqu'à 80 % d'un prêt bancaire, dans la..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Qu'est-ce que la Garantie Égalité Femmes et qui peut en bénéficier ?",
+        "options": [
+          "C'est un dispositif de France Active qui couvre jusqu'à 80 % d'un prêt bancaire, dans la...",
+          "Tu peux cumuler l'ARE ou l'ARCE avec l'ACRE, la Garantie Égalité Femmes, un prêt...",
+          "Ça dépend de ton besoin. Garde l'ARE si tu as peu d'économies et besoin d'un revenu..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -1043,6 +1594,35 @@
       "**Points clés à retenir**",
       "Fixe des KPI clairs dès le départ, la mesure du succès doit être définie avant le diagnostic. Implique tes équipes dès le premier jour, un consultant sans mobilisation interne reste une dépense et non un investissement. Exige le transfert de compétences, un bon consultant rend tes équipes autonomes plutôt que dépendantes. Mesure le ROI sur 6 à 18 mois en documentant les gains directs et indirects. Choisis l'expertise adaptée à ton besoin, qu'elle soit stratégique, managériale, opérationnelle ou digitale.",
       "Le vrai pouvoir du conseil : transformer l'incertitude en clarté, et la clarté en action. Avant de solliciter un consultant, beaucoup de dirigeants gagnent déjà en clarté avec un [business plan simple](/blog/faire-business-plan-simple) bien construit. Et si ton entreprise est encore en micro-entreprise, notre comparatif [auto-entrepreneur ou SASU](/blog/auto-entrepreneur-ou-sasu) peut éclairer un futur changement de statut."
+    ],
+    "quiz": [
+      {
+        "question": "Comment se déroule concrètement une mission de conseil aux entreprises ?",
+        "options": [
+          "Une mission suit généralement quatre phases : diagnostic et cadrage, recommandations et...",
+          "Le coût varie fortement selon la durée, la complexité et le type de conseil sollicité. Ce...",
+          "Dès que tu identifies un blocage que ton équipe n'arrive pas à résoudre seule : pivot..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Combien coûte une mission de conseil aux entreprises ?",
+        "options": [
+          "Le coût varie fortement selon la durée, la complexité et le type de conseil sollicité. Ce...",
+          "Une mission suit généralement quatre phases : diagnostic et cadrage, recommandations et...",
+          "Dès que tu identifies un blocage que ton équipe n'arrive pas à résoudre seule : pivot..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Quand faut-il faire appel à un consultant en entreprise ?",
+        "options": [
+          "Dès que tu identifies un blocage que ton équipe n'arrive pas à résoudre seule : pivot...",
+          "Une mission suit généralement quatre phases : diagnostic et cadrage, recommandations et...",
+          "Le coût varie fortement selon la durée, la complexité et le type de conseil sollicité. Ce..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -1103,6 +1683,35 @@
       "**Points clés à retenir**",
       "La CCI et BGE couvrent le diagnostic et le suivi administratif gratuit. France Travail ouvre l'accès à l'ACRE et l'ARCE pour les demandeurs d'emploi. L'Adie reste la solution de référence pour les projets à faible capital. Bpifrance-creation.fr centralise les ressources pratiques utiles à chaque étape.",
       "L'accompagnement gratuit n'existe que si tu le demandes : ton premier rendez-vous gratuit peut être pris dès aujourd'hui auprès de la structure la plus adaptée à ton profil. Si tu es une femme, complète ces ressources avec notre guide sur l'[accompagnement création entreprise pour femmes](/blog/accompagnement-creation-entreprise-femmes), notre [top des aides pour femmes entrepreneures](/blog/top-aides-accompagnement-creation-entreprise-femme-2026), ou, si tu es au chômage, avec notre article sur les [aides création entreprise femme au chômage](/blog/aide-creation-entreprise-femme-chomage-2026). Et pour les démarches d'immatriculation, suis notre guide pour [devenir auto-entrepreneur en 2026](/blog/devenir-auto-entrepreneur-2026)."
+    ],
+    "quiz": [
+      {
+        "question": "Quel organisme propose un accompagnement gratuit pour créer son entreprise ?",
+        "options": [
+          "La CCI, BGE, l'Adie, les Missions Locales et France Travail proposent tous un...",
+          "La CCI se concentre sur les démarches administratives et le choix du statut juridique,...",
+          "L'ACRE s'obtient directement lors de l'immatriculation de ton entreprise, sous conditions..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Quelle différence entre la CCI et BGE pour l'accompagnement à la création d'entreprise ?",
+        "options": [
+          "La CCI se concentre sur les démarches administratives et le choix du statut juridique,...",
+          "La CCI, BGE, l'Adie, les Missions Locales et France Travail proposent tous un...",
+          "L'ACRE s'obtient directement lors de l'immatriculation de ton entreprise, sous conditions..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Comment obtenir l'ACRE lors de la création de son entreprise ?",
+        "options": [
+          "L'ACRE s'obtient directement lors de l'immatriculation de ton entreprise, sous conditions...",
+          "La CCI, BGE, l'Adie, les Missions Locales et France Travail proposent tous un...",
+          "La CCI se concentre sur les démarches administratives et le choix du statut juridique,..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -1204,6 +1813,35 @@
       "**Points clés à retenir**",
       "Choisir le bon réseau selon votre stade (idée, lancement, croissance) accélère drastiquement votre apprentissage. Combiner prêt d'honneur, Garantie ÉGALITÉ et subvention régionale crée un financement robuste sans surcharge de garanties personnelles. NACRE et Mampreneures proposent des accompagnements gratuits et flexibles adaptés à vos contraintes réelles. Le mentorat collectif réduit les erreurs coûteuses et transforme les défis en opportunités partagées.",
       "L'accompagnement n'est pas un luxe : c'est votre première décision stratégique. Celles qui s'entourent dès le départ réussissent deux fois plus souvent."
+    ],
+    "quiz": [
+      {
+        "question": "Je n'ai pas d'apport personnel, je peux vraiment emprunter quand même ?",
+        "options": [
+          "Oui. C'est justement pour ça que la Garantie ÉGALITÉ Femmes existe : elle supprime le...",
+          "Rejoignez un réseau dès le départ : Action'elles, Les Premières, ou Femmes des...",
+          "Mampreneures est fait pour ça. Elles vous donnent des vraies solutions pratiques. Vous..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "J'ai peur d'être seule si quelque chose cloche, comment je m'entoure ?",
+        "options": [
+          "Rejoignez un réseau dès le départ : Action'elles, Les Premières, ou Femmes des...",
+          "Oui. C'est justement pour ça que la Garantie ÉGALITÉ Femmes existe : elle supprime le...",
+          "Mampreneures est fait pour ça. Elles vous donnent des vraies solutions pratiques. Vous..."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Je suis mère, comment je gère créer mon entreprise et ma famille ?",
+        "options": [
+          "Mampreneures est fait pour ça. Elles vous donnent des vraies solutions pratiques. Vous...",
+          "Oui. C'est justement pour ça que la Garantie ÉGALITÉ Femmes existe : elle supprime le...",
+          "Rejoignez un réseau dès le départ : Action'elles, Les Premières, ou Femmes des..."
+        ],
+        "correct": 0
+      }
     ]
   },
   {
@@ -1219,7 +1857,8 @@
       "Une fois immatriculé, tu reçois ton numéro SIRET, généralement sous 1 à 3 semaines. C'est ce numéro qui te permet de facturer légalement. Si ton activité relève de l'artisanat, tu devras aussi t'immatriculer auprès de la [Chambre des Métiers et de l'Artisanat](/blog/chambre-metiers-artisanat-inscription-2026), une démarche elle aussi gratuite. Et si tu es demandeur d'emploi, regarde les [aides France Travail cumulables avec ta création d'entreprise](/blog/aide-creation-entreprise-france-travail-2026). Attention : tu ne peux pas émettre de factures avant de l'avoir reçu, même si tu peux déjà prospecter et signer des devis. C'est aussi le bon moment pour activer tes premières actions de prospection : découvre nos [5 stratégies gratuites pour trouver tes premiers clients](/blog/trouver-premiers-clients-freelance).",
       "Chaque mois ou chaque trimestre (au choix), tu devras déclarer ton chiffre d'affaires encaissé sur le portail Urssaf, même s'il est nul. C'est cette déclaration qui calcule automatiquement tes cotisations sociales, prélevées dans les jours qui suivent. Oublier une déclaration peut entraîner une pénalité, donc mets un rappel récurrent dans ton agenda. Si tu es aussi inscrit à France Travail, regarde notre article sur le [cumul auto-entrepreneur et chômage](/blog/auto-entrepreneur-et-chomage) pour ne pas perdre tes droits.",
       "Dernier point essentiel : la micro-entreprise est soumise à des plafonds de chiffre d'affaires annuel. Si tu les dépasses deux années de suite, tu bascules automatiquement vers un régime réel d'imposition, ce qui implique souvent de changer de statut juridique pour rester optimisé fiscalement. Consulte notre détail des [plafonds de la micro-entreprise en 2026](/blog/plafonds-micro-entreprise-2026) pour anticiper ce changement, et notre comparatif [auto-entrepreneur ou SASU](/blog/auto-entrepreneur-ou-sasu) si tu dois basculer de statut."
-    ]
+    ],
+    "quiz": []
   },
   {
     "slug": "trouver-premiers-clients-freelance",
@@ -1234,7 +1873,8 @@
       "3. Un portfolio ou site vitrine simple. Même basique, un site avec quelques réalisations, un descriptif clair de ton offre et un moyen de te contacter rassure énormément un prospect qui hésite. Tu peux créer cela gratuitement avec des outils comme Notion, Carrd ou un site WordPress basique.",
       "4. Le cold email ciblé. Identifie une vingtaine d'entreprises qui correspondent exactement à ta cible, et envoie un message court et personnalisé qui montre que tu as fait tes recherches sur leur activité. Évite les messages génériques envoyés en masse, qui finissent en spam : la personnalisation fait toute la différence sur le taux de réponse. Si tu cumules cette activité avec le chômage, regarde aussi notre article sur le [cumul auto-entrepreneur et chômage](/blog/auto-entrepreneur-et-chomage) pour sécuriser tes droits pendant la prospection.",
       "5. Les groupes et communautés en ligne (Facebook, Slack, Discord, forums spécialisés). De nombreux groupes rassemblent justement des porteurs de projet ou des entreprises qui cherchent des prestataires. Participe activement, réponds à des questions sans rien vendre directement, et les opportunités viendront naturellement de ta crédibilité construite dans la durée. Avant de démarcher, assure-toi d'avoir bouclé les démarches administratives : notre guide pour [devenir auto-entrepreneur en 2026](/blog/devenir-auto-entrepreneur-2026) récapitule toutes les étapes, et notre [business plan simple](/blog/faire-business-plan-simple) t'aide à clarifier ton offre avant de prospecter."
-    ]
+    ],
+    "quiz": []
   },
   {
     "slug": "auto-entrepreneur-ou-sasu",
@@ -1249,7 +1889,8 @@
       "La protection sociale diffère aussi nettement : le président de SASU est assimilé salarié, ce qui lui donne accès au régime général de la Sécurité sociale (hors chômage), avec une meilleure couverture que celle de la micro-entreprise. En contrepartie, les cotisations sociales en SASU sont globalement plus élevées sur un même niveau de rémunération.",
       "Enfin, la crédibilité commerciale peut jouer un rôle, notamment si tu travailles avec de grandes entreprises ou des institutions qui préfèrent contractualiser avec une société plutôt qu'avec un statut individuel. La SASU permet aussi de s'associer plus facilement par la suite ou de lever des fonds, ce qui est impossible en micro-entreprise. Pour les professions libérales réglementées comme l'ostéopathie, ce choix de statut suit des règles spécifiques : voir notre [guide pour créer son cabinet d'ostéopathie](/blog/creer-cabinet-osteopathie-conseils-2026).",
       "En résumé : si tu démarres une activité simple, avec un chiffre d'affaires modéré et que tu veux tester ton marché sans prise de risque administrative, la micro-entreprise reste imbattable. Si ton activité a vocation à grossir rapidement, à embaucher, ou si tu as besoin d'une meilleure protection sociale, la SASU devient pertinente, au prix d'une gestion plus lourde. Si tu pars en micro-entreprise, suis notre guide pour [devenir auto-entrepreneur en 2026](/blog/devenir-auto-entrepreneur-2026) et surveille les [plafonds 2026](/blog/plafonds-micro-entreprise-2026) pour anticiper un éventuel changement de statut. Si tu envisages de te faire accompagner dans ce choix, notre article sur le [conseil aux entreprises](/blog/conseil-aux-entreprises-comment-ca-marche) explique comment fonctionne une mission de consulting."
-    ]
+    ],
+    "quiz": []
   },
   {
     "slug": "plafonds-micro-entreprise-2026",
@@ -1264,7 +1905,8 @@
       "Le franchissement de ces plafonds n'entraîne pas une sortie immédiate du régime micro : tu ne perds le bénéfice du régime que si tu dépasses le seuil pendant deux années civiles consécutives. La première année de dépassement, tu restes en micro-entreprise ; c'est seulement si le dépassement se répète l'année suivante que tu bascules vers un régime réel d'imposition à partir du 1er janvier de l'année suivante. Si tu en es là, l'accompagnement d'un consultant peut t'aider à anticiper ce changement : notre article sur le [conseil aux entreprises](/blog/conseil-aux-entreprises-comment-ca-marche) explique comment ça fonctionne.",
       "Il existe également un seuil de franchise en base de TVA, distinct du plafond de chiffre d'affaires : 37 500 € pour les prestations de services et 85 000 € pour la vente de marchandises (seuils 2026). Au-delà, tu deviens redevable de la TVA, ce qui signifie facturer la TVA à tes clients et la reverser à l'État, même si tu restes en micro-entreprise sur le plan du régime fiscal et social.",
       "Bien suivre son chiffre d'affaires cumulé tout au long de l'année, à l'aide d'un tableau simple ou d'un outil de facturation, permet d'anticiper ces seuils plutôt que de les découvrir trop tard, au moment où les conséquences administratives et fiscales sont déjà enclenchées. Si tu approches ces plafonds, compare dès maintenant les options avec notre comparatif [auto-entrepreneur ou SASU](/blog/auto-entrepreneur-ou-sasu). Et si tu démarres tout juste ton activité, relis notre guide pour [devenir auto-entrepreneur en 2026](/blog/devenir-auto-entrepreneur-2026)."
-    ]
+    ],
+    "quiz": []
   },
   {
     "slug": "faire-business-plan-simple",
@@ -1280,7 +1922,8 @@
       "4. La stratégie commerciale. Comment vas-tu trouver tes clients concrètement ? Quels canaux (réseaux sociaux, bouche-à-oreille, prospection directe, partenariats) ? Avec quel budget, même minime ? Cette partie doit rester actionnable, pas théorique.",
       "5. Le prévisionnel financier simplifié. Liste tes charges fixes mensuelles (assurances, abonnements, éventuel loyer), estime un chiffre d'affaires réaliste sur les 12 premiers mois, et calcule le seuil à partir duquel ton activité devient rentable. Pas besoin d'un tableau Excel complexe : une feuille de calcul simple avec entrées et sorties mensuelles suffit pour démarrer.",
       "L'objectif d'un business plan, surtout pour une petite structure, n'est pas d'impressionner un banquier mais avant tout de clarifier ta propre réflexion et de repérer les failles de ton projet avant de te lancer réellement. Une fois ton business plan posé, reste à boucler les démarches administratives : notre guide pour [devenir auto-entrepreneur en 2026](/blog/devenir-auto-entrepreneur-2026) détaille chaque étape, et si tu préfères te faire accompagner, notre article sur le [conseil aux entreprises](/blog/conseil-aux-entreprises-comment-ca-marche) explique comment fonctionne une mission de consulting."
-    ]
+    ],
+    "quiz": []
   },
   {
     "slug": "auto-entrepreneur-et-chomage",
@@ -1295,6 +1938,7 @@
       "Une autre option consiste à demander le versement de tes allocations chômage restantes sous forme de capital, via l'aide à la reprise ou à la création d'entreprise (ARCE). Tu touches alors 60% du reliquat de tes droits ARE en deux versements, ce qui peut constituer un capital de départ appréciable. Attention : ce choix est exclusif du maintien mensuel de l'ARE, il faut donc bien évaluer laquelle des deux options correspond le mieux à ton besoin de trésorerie.",
       "Il existe également l'ACRE (aide aux créateurs et repreneurs d'entreprise), qui n'est pas liée au chômage mais qui permet une exonération partielle de cotisations sociales pendant la première année d'activité, sous conditions de ressources. Elle est cumulable avec le maintien des allocations chômage, ce qui en fait un dispositif particulièrement intéressant pour démarrer en limitant les charges les premiers mois.",
       "Dans tous les cas, il est recommandé de signaler ta création d'entreprise à ton conseiller France Travail dès l'immatriculation, afin de mettre en place le bon dispositif dès le départ plutôt que de devoir régulariser une situation après coup. Si tu es une femme au chômage, notre guide sur les [aides création entreprise femme au chômage 2026](/blog/aide-creation-entreprise-femme-chomage-2026) détaille comment cumuler ARE, ARCE et ACRE avec d'autres dispositifs. Si tu as moins de 25 ans, des dispositifs complémentaires existent aussi via les Missions Locales — voir notre [guide créer son entreprise avant 25 ans](/blog/aide-creation-entreprise-moins-25-ans-2026). Et pour les démarches de création elles-mêmes, relis notre guide pour [devenir auto-entrepreneur en 2026](/blog/devenir-auto-entrepreneur-2026)."
-    ]
+    ],
+    "quiz": []
   }
 ]
