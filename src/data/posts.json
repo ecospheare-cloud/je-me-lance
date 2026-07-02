@@ -72,7 +72,8 @@
       "Quels Réseaux de Conseil pour les TPE et PME en Création ?",
       "Quel Accompagnement Choisir Selon la Taille de son Projet ?",
       "Bpifrance Création, la référence nationale"
-    ]
+    ],
+    "metaTitle": "Créer une TPE ou PME en 2026 : Guide"
   },
   {
     "slug": "conseil-activite-liberale-creation-entreprise-2026",
@@ -146,7 +147,8 @@
       "Profession Libérale Réglementée ou Non Réglementée : Quelle Différence ?",
       "Quel Statut Juridique pour une Activité Libérale ?",
       "Quelle Protection Sociale pour un Travailleur Libéral ?"
-    ]
+    ],
+    "metaTitle": "Créer une Activité Libérale 2026"
   },
   {
     "slug": "organismes-accompagnement-creation-entreprise-2026",
@@ -221,7 +223,8 @@
       "Quels sont les Principaux Organismes d'Accompagnement Généralistes ?",
       "Quels Organismes pour des Profils Spécifiques ?",
       "Les CCI, le point d'entrée pour le commerce et les services"
-    ]
+    ],
+    "metaTitle": "Organismes Accompagnement Création 2026"
   },
   {
     "slug": "extrait-immatriculation-chambre-metiers-gratuit-2026",
@@ -299,7 +302,8 @@
       "Qu'est-ce que l'Extrait d'Immatriculation au Répertoire des Métiers ?",
       "Comment Obtenir Gratuitement son Extrait d'Immatriculation ?",
       "Dans Quels Cas l'Extrait d'Immatriculation est-il Demandé ?"
-    ]
+    ],
+    "metaTitle": "Extrait Immatriculation Chambre des Métiers"
   },
   {
     "slug": "associations-aide-creation-entreprise-femme-2026",
@@ -372,7 +376,8 @@
       "Quelles Associations Accompagnent Spécifiquement les Femmes Entrepreneures ?",
       "Comment Choisir l'Association la Plus Adaptée à son Projet ?",
       "Les Premières, incubateur dédié aux femmes"
-    ]
+    ],
+    "metaTitle": "Associations Aide Femmes Entrepreneures"
   },
   {
     "slug": "aide-agefiph-creation-entreprise-2026",
@@ -450,7 +455,8 @@
       "Qui Peut Bénéficier de l'Aide AGEFIPH à la Création d'Entreprise ?",
       "Quel est le Montant de l'Aide AGEFIPH en 2026 ?",
       "Comment Faire sa Demande d'Aide AGEFIPH ?"
-    ]
+    ],
+    "metaTitle": "Aide AGEFIPH Création Entreprise 2026"
   },
   {
     "slug": "aide-rqth-creation-entreprise-2026",
@@ -528,7 +534,8 @@
       "Qu'est-ce que la RQTH et Comment l'Obtenir ?",
       "Quels Droits la RQTH Ouvre-t-elle pour Créer son Entreprise ?",
       "Quel Statut Juridique Privilégier avec une RQTH ?"
-    ]
+    ],
+    "metaTitle": "Créer son Entreprise avec la RQTH 2026"
   },
   {
     "slug": "conseil-juridique-creation-entreprise-2026",
@@ -689,7 +696,8 @@
       "Quelles Aides Spécifiques aux Jeunes Créateurs de Moins de 25 Ans ?",
       "Comment Financer un Projet sans Apport Personnel à 22 ou 24 Ans ?",
       "Quel Statut Juridique Choisir Quand on Démarre Jeune ?"
-    ]
+    ],
+    "metaTitle": "Aide Création Entreprise Moins de 25 Ans"
   },
   {
     "slug": "aides-regionales-departementales-creation-entreprise-2026",
@@ -770,7 +778,8 @@
       "Quelles Aides Propose un Conseil Régional à la Création d'Entreprise ?",
       "Quelles Aides Propose un Conseil Départemental ?",
       "Comment Monter un Dossier de Demande de Subvention Solide ?"
-    ]
+    ],
+    "metaTitle": "Aides Régionales Création Entreprise 2026"
   },
   {
     "slug": "aide-creation-entreprise-occitanie-2026",
@@ -923,7 +932,8 @@
       "Quel Statut Juridique Choisir pour son Cabinet d'Ostéopathie ?",
       "Quelles Démarches Administratives Spécifiques à l'Ostéopathie ?",
       "Comment Trouver ses Premiers Patients en Ostéopathie ?"
-    ]
+    ],
+    "metaTitle": "Créer un Cabinet d'Ostéopathie 2026"
   },
   {
     "slug": "code-ape-entreprise-2026",
@@ -1083,7 +1093,8 @@
       "Quelles Aides France Travail Pour Créer Son Entreprise ?",
       "Comment Demander ces Aides à France Travail ?",
       "Quel Accompagnement en Plus des Aides Financières ?"
-    ]
+    ],
+    "metaTitle": "Aide France Travail Création Entreprise"
   },
   {
     "slug": "chambre-metiers-artisanat-inscription-2026",
@@ -1381,7 +1392,8 @@
       "Les Dispositifs d'Accompagnement Spécifiques au Handicap",
       "Les Aides Financières Mobilisables en 2026",
       "L'Accessibilité et les Aménagements du Poste de Travail"
-    ]
+    ],
+    "metaTitle": "Créer son Entreprise avec un Handicap 2026"
   },
   {
     "slug": "top-aides-accompagnement-creation-entreprise-femme-2026",
@@ -1512,7 +1524,8 @@
       "Les Aides Financières Dédiées aux Femmes Entrepreneures",
       "Les Dispositifs d'Accompagnement à la Création",
       "Les Réseaux Spécialisés pour Femmes Entrepreneures"
-    ]
+    ],
+    "metaTitle": "Aides Femmes Entrepreneures 2026"
   },
   {
     "slug": "aide-creation-entreprise-femme-chomage-2026",
@@ -1630,7 +1643,8 @@
       "Aides Chômage pour Créer son Entreprise : ARE, ARCE et ACRE",
       "Dispositifs Spécifiques aux Femmes Entrepreneures",
       "Aides Complémentaires pour Demandeuses d'Emploi"
-    ]
+    ],
+    "metaTitle": "Aide Création Entreprise Femme Chômage 2026"
   },
   {
     "slug": "conseil-aux-entreprises-comment-ca-marche",
@@ -1743,7 +1757,8 @@
       "Comment Fonctionne une Mission de Conseil aux Entreprises ?",
       "Les Grandes Étapes d'une Mission de Conseil",
       "Les Principaux Types de Conseil aux Entreprises"
-    ]
+    ],
+    "metaTitle": "Conseil aux Entreprises : Guide Pratique"
   },
   {
     "slug": "accompagnement-creation-entreprise-gratuit-2026",

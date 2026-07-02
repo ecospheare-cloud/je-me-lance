@@ -13,12 +13,13 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug);
   if (!post) return {};
+  const seoTitle = post.metaTitle ?? post.title;
   return {
-    title: post.title,
+    title: seoTitle,
     description: post.excerpt,
     alternates: { canonical: `/blog/${post.slug}` },
     openGraph: {
-      title: post.title,
+      title: seoTitle,
       description: post.excerpt,
       url: `${siteUrl}/blog/${post.slug}`,
       type: "article",
