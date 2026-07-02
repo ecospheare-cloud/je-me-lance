@@ -73,7 +73,38 @@
       "Quel Accompagnement Choisir Selon la Taille de son Projet ?",
       "Bpifrance Création, la référence nationale"
     ],
-    "metaTitle": "Comment Créer une TPE ou PME : Guide 2026"
+    "metaTitle": "Comment Créer une TPE ou PME : Guide 2026",
+    "infographic": {
+      "type": "table",
+      "title": "Quel réseau selon ton projet ?",
+      "headers": [
+        "Réseau",
+        "Spécialité",
+        "Financement"
+      ],
+      "rows": [
+        [
+          "Bpifrance Création",
+          "Information & diagnostic gratuit",
+          "Pas de prêt direct"
+        ],
+        [
+          "Initiative France",
+          "Prêt d'honneur + mentorat",
+          "5 000 à 50 000 €"
+        ],
+        [
+          "BGE",
+          "Accompagnement individuel long",
+          "Pas de prêt direct"
+        ],
+        [
+          "Réseau Entreprendre",
+          "Projets à fort potentiel",
+          "Jusqu'à 50 000 €"
+        ]
+      ]
+    }
   },
   {
     "slug": "conseil-activite-liberale-creation-entreprise-2026",
@@ -148,7 +179,43 @@
       "Quel Statut Juridique pour une Activité Libérale ?",
       "Quelle Protection Sociale pour un Travailleur Libéral ?"
     ],
-    "metaTitle": "Créer une Activité Libérale : Guide 2026"
+    "metaTitle": "Créer une Activité Libérale : Guide 2026",
+    "infographic": {
+      "type": "table",
+      "title": "Réglementée vs Non réglementée",
+      "headers": [
+        "Critère",
+        "Réglementée",
+        "Non réglementée"
+      ],
+      "rows": [
+        [
+          "Exemples",
+          "Médecin, avocat, expert-comptable",
+          "Coach, consultant, formateur"
+        ],
+        [
+          "Diplôme requis",
+          "Oui, obligatoire",
+          "Non"
+        ],
+        [
+          "Inscription",
+          "Ordre professionnel",
+          "Guichet unique INPI"
+        ],
+        [
+          "Statut possible",
+          "SEL, SELARL",
+          "Micro-entreprise, SASU"
+        ],
+        [
+          "Protection sociale",
+          "CIPAV ou SSI",
+          "SSI"
+        ]
+      ]
+    }
   },
   {
     "slug": "organismes-accompagnement-creation-entreprise-2026",
@@ -224,7 +291,43 @@
       "Quels Organismes pour des Profils Spécifiques ?",
       "Les CCI, le point d'entrée pour le commerce et les services"
     ],
-    "metaTitle": "Organismes Accompagnement Création 2026"
+    "metaTitle": "Organismes Accompagnement Création 2026",
+    "infographic": {
+      "type": "table",
+      "title": "Quel organisme selon ton profil ?",
+      "headers": [
+        "Organisme",
+        "Pour qui",
+        "Gratuit ?"
+      ],
+      "rows": [
+        [
+          "CCI",
+          "Commerce & services",
+          "Oui"
+        ],
+        [
+          "CMA",
+          "Artisanat",
+          "Oui"
+        ],
+        [
+          "BGE",
+          "Tout porteur de projet",
+          "Partiellement"
+        ],
+        [
+          "Adie",
+          "Sans accès au crédit bancaire",
+          "Oui"
+        ],
+        [
+          "Réseau Entreprendre",
+          "Projets à fort potentiel",
+          "Oui"
+        ]
+      ]
+    }
   },
   {
     "slug": "extrait-immatriculation-chambre-metiers-gratuit-2026",
@@ -303,7 +406,25 @@
       "Comment Obtenir Gratuitement son Extrait d'Immatriculation ?",
       "Dans Quels Cas l'Extrait d'Immatriculation est-il Demandé ?"
     ],
-    "metaTitle": "Extrait Immatriculation Chambre des Métiers"
+    "metaTitle": "Extrait Immatriculation Chambre des Métiers",
+    "infographic": {
+      "type": "steps",
+      "title": "Obtenir son extrait gratuitement",
+      "items": [
+        {
+          "label": "Va sur le site du RNE (INPI)",
+          "desc": "registre-national-des-entreprises.inpi.fr"
+        },
+        {
+          "label": "Entre ton numéro SIREN",
+          "desc": "Visible sur ton avis de situation SIRENE"
+        },
+        {
+          "label": "Télécharge l'extrait en PDF",
+          "desc": "Immédiat, gratuit, officiel"
+        }
+      ]
+    }
   },
   {
     "slug": "associations-aide-creation-entreprise-femme-2026",
@@ -377,7 +498,33 @@
       "Comment Choisir l'Association la Plus Adaptée à son Projet ?",
       "Les Premières, incubateur dédié aux femmes"
     ],
-    "metaTitle": "Associations Aide Femmes Entrepreneures"
+    "metaTitle": "Associations Aide Femmes Entrepreneures",
+    "infographic": {
+      "type": "table",
+      "title": "Quelle association selon ton profil ?",
+      "headers": [
+        "Association",
+        "Pour qui",
+        "Type d'aide"
+      ],
+      "rows": [
+        [
+          "Force Femmes",
+          "Femmes +45 ans en reconversion",
+          "Ateliers + accompagnement individuel"
+        ],
+        [
+          "Action'elles",
+          "Toutes femmes entrepreneures",
+          "Mentorat individuel"
+        ],
+        [
+          "Les Premières",
+          "Projets innovants à fort potentiel",
+          "Incubateur + réseau"
+        ]
+      ]
+    }
   },
   {
     "slug": "aide-agefiph-creation-entreprise-2026",
@@ -456,7 +603,29 @@
       "Quel est le Montant de l'Aide AGEFIPH en 2026 ?",
       "Comment Faire sa Demande d'Aide AGEFIPH ?"
     ],
-    "metaTitle": "Aide AGEFIPH Création Entreprise 2026"
+    "metaTitle": "Aide AGEFIPH Création Entreprise 2026",
+    "infographic": {
+      "type": "numbers",
+      "title": "L'aide AGEFIPH en chiffres",
+      "items": [
+        {
+          "value": "6 000 €",
+          "label": "Aide max à la création"
+        },
+        {
+          "value": "3 ans",
+          "label": "Durée d'accompagnement"
+        },
+        {
+          "value": "0 €",
+          "label": "Coût du diagnostic initial"
+        },
+        {
+          "value": "100%",
+          "label": "Cumulable avec l'ACRE"
+        }
+      ]
+    }
   },
   {
     "slug": "aide-rqth-creation-entreprise-2026",
@@ -535,7 +704,19 @@
       "Quels Droits la RQTH Ouvre-t-elle pour Créer son Entreprise ?",
       "Quel Statut Juridique Privilégier avec une RQTH ?"
     ],
-    "metaTitle": "Créer son Entreprise avec la RQTH 2026"
+    "metaTitle": "Créer son Entreprise avec la RQTH 2026",
+    "infographic": {
+      "type": "checklist",
+      "title": "Aides accessibles avec une RQTH",
+      "items": [
+        "ACRE — exonération de charges la 1ère année",
+        "ARCE — 60% des droits chômage en capital",
+        "Aide AGEFIPH à la création (jusqu'à 6 000 €)",
+        "Accompagnement Cap Emploi gratuit",
+        "Maintien partiel de l'AAH pendant le lancement",
+        "Prêt d'honneur Initiative France"
+      ]
+    }
   },
   {
     "slug": "conseil-juridique-creation-entreprise-2026",
@@ -616,7 +797,18 @@
       "Où Trouver un Conseil Juridique pour Créer son Entreprise ?",
       "Quelles Questions Juridiques se Poser Avant de Créer son Entreprise ?"
     ],
-    "metaTitle": "Conseil Juridique Création d'Entreprise"
+    "metaTitle": "Conseil Juridique Création d'Entreprise",
+    "infographic": {
+      "type": "checklist",
+      "title": "Où obtenir un conseil juridique gratuit ?",
+      "items": [
+        "Maisons de Justice et du Droit (MJD)",
+        "Permanences juridiques des CCI",
+        "Consultations gratuites des barreaux d'avocats",
+        "Associations type APCE ou France Entreprises",
+        "Bpifrance Création (guides et diagnostics en ligne)"
+      ]
+    }
   },
   {
     "slug": "aide-creation-entreprise-moins-25-ans-2026",
@@ -698,7 +890,29 @@
       "Comment Financer un Projet sans Apport Personnel à 22 ou 24 Ans ?",
       "Quel Statut Juridique Choisir Quand on Démarre Jeune ?"
     ],
-    "metaTitle": "Aide Création Entreprise Moins de 25 Ans"
+    "metaTitle": "Aide Création Entreprise Moins de 25 Ans",
+    "infographic": {
+      "type": "numbers",
+      "title": "Les aides jeunes entrepreneurs en chiffres",
+      "items": [
+        {
+          "value": "50%",
+          "label": "Exonération charges ACRE 1ère année"
+        },
+        {
+          "value": "50 000 €",
+          "label": "Prêt d'honneur max Initiative France"
+        },
+        {
+          "value": "25 ans",
+          "label": "Âge max pour aides spécifiques jeunes"
+        },
+        {
+          "value": "0 €",
+          "label": "Coût d'immatriculation micro-entreprise"
+        }
+      ]
+    }
   },
   {
     "slug": "aides-regionales-departementales-creation-entreprise-2026",
@@ -780,7 +994,19 @@
       "Quelles Aides Propose un Conseil Départemental ?",
       "Comment Monter un Dossier de Demande de Subvention Solide ?"
     ],
-    "metaTitle": "Aides Régionales Création Entreprise 2026"
+    "metaTitle": "Aides Régionales Création Entreprise 2026",
+    "infographic": {
+      "type": "checklist",
+      "title": "Types d'aides régionales disponibles",
+      "items": [
+        "Subventions régionales à la création",
+        "Prêts à taux zéro régionaux",
+        "Exonérations fiscales en zones ZFU/ZRR",
+        "Chèques conseil (formations subventionnées)",
+        "Aides spécifiques femmes et jeunes",
+        "Fonds FEDER (zones éligibles UE)"
+      ]
+    }
   },
   {
     "slug": "aide-creation-entreprise-occitanie-2026",
@@ -855,7 +1081,29 @@
       "Comment Combiner les Aides Occitanie avec les Dispositifs Nationaux ?",
       "Le Pass Entreprendre Occitanie"
     ],
-    "metaTitle": "Aide Création Entreprise Occitanie 2026"
+    "metaTitle": "Aide Création Entreprise Occitanie 2026",
+    "infographic": {
+      "type": "numbers",
+      "title": "La création d'entreprise en Occitanie",
+      "items": [
+        {
+          "value": "13",
+          "label": "Départements couverts"
+        },
+        {
+          "value": "0%",
+          "label": "Taux prêts régionaux jeunes"
+        },
+        {
+          "value": "80%",
+          "label": "Garantie Bpifrance possible"
+        },
+        {
+          "value": "Gratuit",
+          "label": "Diagnostic initial CCI/CMA"
+        }
+      ]
+    }
   },
   {
     "slug": "creer-cabinet-osteopathie-conseils-2026",
@@ -935,7 +1183,33 @@
       "Quelles Démarches Administratives Spécifiques à l'Ostéopathie ?",
       "Comment Trouver ses Premiers Patients en Ostéopathie ?"
     ],
-    "metaTitle": "Créer un Cabinet d'Ostéopathie 2026"
+    "metaTitle": "Créer un Cabinet d'Ostéopathie 2026",
+    "infographic": {
+      "type": "steps",
+      "title": "Créer son cabinet d'ostéopathie",
+      "items": [
+        {
+          "label": "Obtenir le diplôme D.O. reconnu par l'État",
+          "desc": "Formation en 5 ans dans un établissement agréé"
+        },
+        {
+          "label": "S'inscrire auprès de l'ARS",
+          "desc": "Agence Régionale de Santé — obligatoire"
+        },
+        {
+          "label": "Choisir son statut juridique",
+          "desc": "Libéral classique, micro-entreprise ou SCM"
+        },
+        {
+          "label": "S'immatriculer via le guichet unique",
+          "desc": "Site de l'INPI — gratuit"
+        },
+        {
+          "label": "Souscrire une RC Pro",
+          "desc": "Obligatoire pour exercer"
+        }
+      ]
+    }
   },
   {
     "slug": "code-ape-entreprise-2026",
@@ -1011,7 +1285,29 @@
       "Comment le Code APE est-il Déterminé lors de la Création d'Entreprise ?",
       "Que Faire si son Code APE est Erroné ?"
     ],
-    "metaTitle": "Code APE Entreprise : Guide 2026"
+    "metaTitle": "Code APE Entreprise : Guide 2026",
+    "infographic": {
+      "type": "steps",
+      "title": "Comment modifier son code APE ?",
+      "items": [
+        {
+          "label": "Vérifier son code APE actuel",
+          "desc": "Visible sur l'avis de situation SIRENE ou Kbis"
+        },
+        {
+          "label": "Contacter l'INSEE",
+          "desc": "Par courrier ou via le guichet unique INPI"
+        },
+        {
+          "label": "Justifier le changement d'activité",
+          "desc": "Description de la nouvelle activité principale"
+        },
+        {
+          "label": "Recevoir le nouveau code",
+          "desc": "Sous 2 à 4 semaines — gratuit"
+        }
+      ]
+    }
   },
   {
     "slug": "aide-creation-entreprise-france-travail-2026",
@@ -1097,7 +1393,38 @@
       "Comment Demander ces Aides à France Travail ?",
       "Quel Accompagnement en Plus des Aides Financières ?"
     ],
-    "metaTitle": "Aide France Travail Création Entreprise"
+    "metaTitle": "Aide France Travail Création Entreprise",
+    "infographic": {
+      "type": "table",
+      "title": "ACRE vs ARCE : quelle différence ?",
+      "headers": [
+        "",
+        "ACRE",
+        "ARCE"
+      ],
+      "rows": [
+        [
+          "Quoi",
+          "Exonération de charges sociales",
+          "Capital versé en 2 fois"
+        ],
+        [
+          "Montant",
+          "Exo partielle 1ère année",
+          "60% des droits restants"
+        ],
+        [
+          "Quand",
+          "Dès la création",
+          "À la création + 6 mois"
+        ],
+        [
+          "Cumulable",
+          "Oui avec ARCE",
+          "Oui avec ACRE"
+        ]
+      ]
+    }
   },
   {
     "slug": "chambre-metiers-artisanat-inscription-2026",
@@ -1175,7 +1502,33 @@
       "Comment s'Inscrire à la Chambre des Métiers en Ligne ?",
       "Comment Obtenir son Extrait d'Immatriculation Gratuitement ?"
     ],
-    "metaTitle": "Inscription Chambre des Métiers 2026"
+    "metaTitle": "Inscription Chambre des Métiers 2026",
+    "infographic": {
+      "type": "steps",
+      "title": "S'inscrire à la CMA en 2026",
+      "items": [
+        {
+          "label": "Préparer les documents",
+          "desc": "Pièce d'identité, justificatif domicile, diplôme si requis"
+        },
+        {
+          "label": "Se connecter sur le guichet unique",
+          "desc": "formalites.entreprises.gouv.fr"
+        },
+        {
+          "label": "Déclarer son activité artisanale",
+          "desc": "Remplir le formulaire en ligne — 15 min"
+        },
+        {
+          "label": "Payer la CFE (si applicable)",
+          "desc": "Cotisation Foncière des Entreprises — selon commune"
+        },
+        {
+          "label": "Recevoir son numéro SIRET",
+          "desc": "Sous 1 à 5 jours ouvrés"
+        }
+      ]
+    }
   },
   {
     "slug": "creer-micro-entreprise-gratuite-2026",
@@ -1253,7 +1606,33 @@
       "Comment S'immatriculer Gratuitement Étape par Étape ?",
       "Les Pièges à Éviter : Sites Payants et Frais Cachés"
     ],
-    "metaTitle": "Créer sa Micro-Entreprise Gratuitement 2026"
+    "metaTitle": "Créer sa Micro-Entreprise Gratuitement 2026",
+    "infographic": {
+      "type": "steps",
+      "title": "Créer sa micro-entreprise en 5 étapes",
+      "items": [
+        {
+          "label": "Aller sur autoentrepreneur.urssaf.fr",
+          "desc": "Le site officiel et gratuit"
+        },
+        {
+          "label": "Créer son compte et déclarer son activité",
+          "desc": "Nom, adresse, type d'activité"
+        },
+        {
+          "label": "Choisir son régime fiscal",
+          "desc": "Versement libératoire ou déclaration classique"
+        },
+        {
+          "label": "Valider et signer électroniquement",
+          "desc": "Signature numérique obligatoire"
+        },
+        {
+          "label": "Recevoir son numéro SIRET",
+          "desc": "Sous 1 à 5 jours — tout est gratuit"
+        }
+      ]
+    }
   },
   {
     "slug": "creer-entreprise-situation-handicap-2026",
@@ -1398,7 +1777,20 @@
       "Les Aides Financières Mobilisables en 2026",
       "L'Accessibilité et les Aménagements du Poste de Travail"
     ],
-    "metaTitle": "Créer son Entreprise avec un Handicap 2026"
+    "metaTitle": "Créer son Entreprise avec un Handicap 2026",
+    "infographic": {
+      "type": "checklist",
+      "title": "Checklist aides disponibles avec un handicap",
+      "items": [
+        "ACRE — exonération de charges 1ère année",
+        "ARCE — capital chômage en 2 versements",
+        "Aide AGEFIPH création (jusqu'à 6 000 €)",
+        "Maintien de l'AAH pendant la phase de lancement",
+        "Accompagnement Cap Emploi (gratuit)",
+        "Prêt d'honneur Initiative France",
+        "Garantie Bpifrance 80%"
+      ]
+    }
   },
   {
     "slug": "top-aides-accompagnement-creation-entreprise-femme-2026",
@@ -1530,7 +1922,43 @@
       "Les Dispositifs d'Accompagnement à la Création",
       "Les Réseaux Spécialisés pour Femmes Entrepreneures"
     ],
-    "metaTitle": "Aides Femmes Entrepreneures 2026"
+    "metaTitle": "Aides Femmes Entrepreneures 2026",
+    "infographic": {
+      "type": "table",
+      "title": "Les principales aides pour femmes entrepreneures",
+      "headers": [
+        "Aide",
+        "Type",
+        "Montant"
+      ],
+      "rows": [
+        [
+          "Prêt d'honneur Initiative France",
+          "Prêt taux zéro",
+          "Jusqu'à 50 000 €"
+        ],
+        [
+          "Microcrédit Adie",
+          "Prêt",
+          "Jusqu'à 12 000 €"
+        ],
+        [
+          "Garantie Bpifrance",
+          "Garantie bancaire",
+          "Jusqu'à 80% du prêt"
+        ],
+        [
+          "ACRE",
+          "Exonération charges",
+          "1ère année"
+        ],
+        [
+          "Bourses régionales femmes",
+          "Subvention",
+          "Variable par région"
+        ]
+      ]
+    }
   },
   {
     "slug": "aide-creation-entreprise-femme-chomage-2026",
@@ -1649,7 +2077,29 @@
       "Dispositifs Spécifiques aux Femmes Entrepreneures",
       "Aides Complémentaires pour Demandeuses d'Emploi"
     ],
-    "metaTitle": "Aide Création Entreprise Femme Chômage"
+    "metaTitle": "Aide Création Entreprise Femme Chômage",
+    "infographic": {
+      "type": "numbers",
+      "title": "Ce que tu peux cumuler en tant que femme au chômage",
+      "items": [
+        {
+          "value": "60%",
+          "label": "Droits chômage versés en capital (ARCE)"
+        },
+        {
+          "value": "50%",
+          "label": "Exonération charges ACRE 1ère année"
+        },
+        {
+          "value": "12 000 €",
+          "label": "Microcrédit Adie maximum"
+        },
+        {
+          "value": "50 000 €",
+          "label": "Prêt d'honneur Initiative France"
+        }
+      ]
+    }
   },
   {
     "slug": "conseil-aux-entreprises-comment-ca-marche",
@@ -1763,7 +2213,43 @@
       "Les Grandes Étapes d'une Mission de Conseil",
       "Les Principaux Types de Conseil aux Entreprises"
     ],
-    "metaTitle": "Conseil aux Entreprises : Comment Ça Marche"
+    "metaTitle": "Conseil aux Entreprises : Comment Ça Marche",
+    "infographic": {
+      "type": "table",
+      "title": "Conseil gratuit vs payant : quoi choisir ?",
+      "headers": [
+        "Type",
+        "Exemples",
+        "Coût"
+      ],
+      "rows": [
+        [
+          "Organismes publics",
+          "CCI, CMA, BGE, Bpifrance",
+          "Gratuit"
+        ],
+        [
+          "Réseaux associatifs",
+          "Initiative France, Réseau Entreprendre",
+          "Gratuit"
+        ],
+        [
+          "Expert-comptable",
+          "Bilan, fiscalité, comptabilité",
+          "150–250 €/h"
+        ],
+        [
+          "Avocat spécialisé",
+          "Statut juridique, contrats",
+          "200–400 €/h"
+        ],
+        [
+          "Consultant privé",
+          "Stratégie, business plan",
+          "Variable"
+        ]
+      ]
+    }
   },
   {
     "slug": "accompagnement-creation-entreprise-gratuit-2026",
@@ -1859,7 +2345,21 @@
       "Quel Organisme Choisir selon ton Profil de Créateur d'Entreprise ?",
       "Quelles Aides Financières Accompagnent la Création d'Entreprise Gratuite ?"
     ],
-    "metaTitle": "Accompagnement Création Entreprise Gratuit"
+    "metaTitle": "Accompagnement Création Entreprise Gratuit",
+    "infographic": {
+      "type": "checklist",
+      "title": "Les structures d'accompagnement 100% gratuites",
+      "items": [
+        "CCI — Commerce et services",
+        "CMA — Artisanat",
+        "BGE — Accompagnement individualisé",
+        "France Travail — Demandeurs d'emploi",
+        "Bpifrance Création — Diagnostics en ligne",
+        "Initiative France — Prêt d'honneur + mentorat",
+        "Réseau Entreprendre — Projets à potentiel",
+        "Adie — Microcrédit et accompagnement"
+      ]
+    }
   },
   {
     "slug": "accompagnement-creation-entreprise-femmes",
@@ -1996,7 +2496,37 @@
       "Les Aides Financières Réservées aux Femmes Créatrices",
       "Les Structures d'Accompagnement Généralistes Accessibles aux Femmes"
     ],
-    "metaTitle": "Accompagnement Création Entreprise Femmes"
+    "metaTitle": "Accompagnement Création Entreprise Femmes",
+    "infographic": {
+      "type": "table",
+      "title": "Quel accompagnement selon ton profil ?",
+      "headers": [
+        "Profil",
+        "Structure recommandée"
+      ],
+      "rows": [
+        [
+          "Femme +45 ans en reconversion",
+          "Force Femmes"
+        ],
+        [
+          "Projet innovant à fort potentiel",
+          "Les Premières (incubateur)"
+        ],
+        [
+          "Besoin de mentorat individuel",
+          "Action'elles"
+        ],
+        [
+          "Sans accès au crédit bancaire",
+          "Adie"
+        ],
+        [
+          "Projet en région",
+          "CCI + aides régionales"
+        ]
+      ]
+    }
   },
   {
     "slug": "devenir-auto-entrepreneur-2026",
@@ -2015,7 +2545,33 @@
     ],
     "quiz": [],
     "keyPoints": [],
-    "metaTitle": "Devenir Auto-Entrepreneur en 2026"
+    "metaTitle": "Devenir Auto-Entrepreneur en 2026",
+    "infographic": {
+      "type": "steps",
+      "title": "Devenir auto-entrepreneur en 5 étapes",
+      "items": [
+        {
+          "label": "Vérifier l'éligibilité de son activité",
+          "desc": "Commerce, service ou artisanat non réglementé"
+        },
+        {
+          "label": "S'inscrire sur autoentrepreneur.urssaf.fr",
+          "desc": "Gratuit, 15 minutes en ligne"
+        },
+        {
+          "label": "Choisir son régime fiscal",
+          "desc": "Versement libératoire ou impôt sur le revenu classique"
+        },
+        {
+          "label": "Recevoir son numéro SIRET",
+          "desc": "Sous 1 à 5 jours ouvrés"
+        },
+        {
+          "label": "Déclarer son CA chaque mois ou trimestre",
+          "desc": "Via l'application AutoEntrepreneur URSSAF"
+        }
+      ]
+    }
   },
   {
     "slug": "trouver-premiers-clients-freelance",
@@ -2034,7 +2590,20 @@
     ],
     "quiz": [],
     "keyPoints": [],
-    "metaTitle": "Trouver ses Premiers Clients en Freelance"
+    "metaTitle": "Trouver ses Premiers Clients en Freelance",
+    "infographic": {
+      "type": "checklist",
+      "title": "Les meilleures sources de premiers clients",
+      "items": [
+        "Réseau personnel — anciens collègues, amis, famille",
+        "LinkedIn — posts réguliers + prospection directe",
+        "Malt — plateforme freelance française",
+        "Upwork — missions internationales",
+        "Prospection email directe aux entreprises cibles",
+        "Groupes Facebook de ta niche",
+        "Répondre aux appels d'offres publics (BOAMP)"
+      ]
+    }
   },
   {
     "slug": "auto-entrepreneur-ou-sasu",
@@ -2053,7 +2622,48 @@
     ],
     "quiz": [],
     "keyPoints": [],
-    "metaTitle": "Auto-Entrepreneur ou SASU : Que Choisir ?"
+    "metaTitle": "Auto-Entrepreneur ou SASU : Que Choisir ?",
+    "infographic": {
+      "type": "table",
+      "title": "Auto-entrepreneur vs SASU : comparatif",
+      "headers": [
+        "Critère",
+        "Auto-entrepreneur",
+        "SASU"
+      ],
+      "rows": [
+        [
+          "Charges sociales",
+          "22% du CA",
+          "~45% du salaire net"
+        ],
+        [
+          "Plafond CA",
+          "77 700 € (services)",
+          "Illimité"
+        ],
+        [
+          "Capital minimum",
+          "0 €",
+          "1 €"
+        ],
+        [
+          "Comptabilité",
+          "Très simple",
+          "Bilan annuel obligatoire"
+        ],
+        [
+          "Dividendes",
+          "Non",
+          "Oui (optimisation fiscale)"
+        ],
+        [
+          "Idéal pour",
+          "Démarrage, activité secondaire",
+          "Croissance, associés"
+        ]
+      ]
+    }
   },
   {
     "slug": "plafonds-micro-entreprise-2026",
@@ -2072,7 +2682,29 @@
     ],
     "quiz": [],
     "keyPoints": [],
-    "metaTitle": "Plafonds de la Micro-Entreprise 2026"
+    "metaTitle": "Plafonds de la Micro-Entreprise 2026",
+    "infographic": {
+      "type": "numbers",
+      "title": "Les plafonds 2026 à retenir",
+      "items": [
+        {
+          "value": "188 700 €",
+          "label": "CA max vente de marchandises"
+        },
+        {
+          "value": "77 700 €",
+          "label": "CA max prestations de services"
+        },
+        {
+          "value": "2 ans",
+          "label": "Dépassement toléré avant sortie du régime"
+        },
+        {
+          "value": "0 €",
+          "label": "TVA sous le seuil de franchise"
+        }
+      ]
+    }
   },
   {
     "slug": "faire-business-plan-simple",
@@ -2092,7 +2724,33 @@
     ],
     "quiz": [],
     "keyPoints": [],
-    "metaTitle": "Comment Faire un Business Plan Simple"
+    "metaTitle": "Comment Faire un Business Plan Simple",
+    "infographic": {
+      "type": "steps",
+      "title": "Les 5 parties d'un business plan simple",
+      "items": [
+        {
+          "label": "Résumé exécutif",
+          "desc": "1 page — qui tu es, quoi, pourquoi ça marche"
+        },
+        {
+          "label": "Description du projet et du marché",
+          "desc": "Cible, concurrents, positionnement"
+        },
+        {
+          "label": "Modèle économique",
+          "desc": "Comment tu gagnes de l'argent concrètement"
+        },
+        {
+          "label": "Prévisions financières sur 3 ans",
+          "desc": "CA prévisionnel, charges, résultat net"
+        },
+        {
+          "label": "Plan de financement",
+          "desc": "Apports, prêts, aides — total = besoin initial"
+        }
+      ]
+    }
   },
   {
     "slug": "auto-entrepreneur-et-chomage",
@@ -2111,6 +2769,32 @@
     ],
     "quiz": [],
     "keyPoints": [],
-    "metaTitle": "Auto-Entrepreneur et Chômage : le Cumul"
+    "metaTitle": "Auto-Entrepreneur et Chômage : le Cumul",
+    "infographic": {
+      "type": "table",
+      "title": "ACRE vs ARCE vs Maintien ARE",
+      "headers": [
+        "Dispositif",
+        "Ce que tu reçois",
+        "Condition"
+      ],
+      "rows": [
+        [
+          "Maintien ARE",
+          "Allocations partielles selon CA",
+          "CA < plafond mensuel"
+        ],
+        [
+          "ARCE",
+          "60% droits restants en 2 versements",
+          "Renoncer au maintien ARE"
+        ],
+        [
+          "ACRE",
+          "Exo charges 1ère année",
+          "Cumulable avec ARCE et ARE"
+        ]
+      ]
+    }
   }
 ]

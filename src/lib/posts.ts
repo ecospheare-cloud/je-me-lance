@@ -18,6 +18,7 @@ export type Post = {
   quiz?: QuizQuestion[];
   keyPoints?: string[];
   metaTitle?: string;
+  infographic?: import("@/components/ArticleInfographic").InfographicData;
 };
 
 export const posts: Post[] = postsData as Post[];

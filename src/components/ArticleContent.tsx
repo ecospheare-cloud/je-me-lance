@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Post } from "@/lib/posts";
 import RelatedPosts from "@/components/RelatedPosts";
 import ArticleQuiz from "@/components/ArticleQuiz";
+import ArticleInfographic from "@/components/ArticleInfographic";
 
 function renderInline(text: string) {
   const linkPattern = /\[([^\]]+)\]\(([^)]+)\)/g;
@@ -96,6 +97,9 @@ export default function ArticleContent({ post }: { post: Post }) {
           </ul>
         )}
       </div>
+
+      {/* Infographie */}
+      {post.infographic && <ArticleInfographic data={post.infographic} />}
 
       {/* Quiz interactif */}
       {post.quiz && post.quiz.length > 0 && (
