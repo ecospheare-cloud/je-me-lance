@@ -160,6 +160,15 @@ export default function ArticleContent({ post }: { post: Post }) {
             return null;
           }
 
+          // First paragraph gets special styling as direct-answer intro
+          if (i === 0) {
+            return (
+              <p key={i} className="text-[#0F172A] text-base leading-relaxed font-medium border-l-4 border-[#22C55E] pl-4 whitespace-pre-line">
+                {renderInline(block)}
+              </p>
+            );
+          }
+
           return (
             <p
               key={i}
