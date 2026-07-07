@@ -57,32 +57,32 @@
     ],
     "quiz": [
       {
-        "question": "Quel est le prix du plan gratuit de Neptula CRM ?",
+        "question": "Que signifie CRM ?",
         "options": [
-          "0 € sans carte bancaire",
-          "9,90 €/mois",
-          "Gratuit uniquement le premier mois",
-          "Gratuit avec publicités"
+          "Customer Relationship Management",
+          "Client Record Manager",
+          "Central Resource Module",
+          "Contact Relay Marketing"
         ],
         "correct": 0
       },
       {
-        "question": "Combien de contacts peut-on gérer avec le plan gratuit Neptula ?",
+        "question": "Quelle est la fonction principale d'un CRM ?",
         "options": [
-          "25 contacts",
-          "100 contacts",
-          "10 contacts",
-          "Illimité"
+          "Centraliser les informations clients et suivre les échanges",
+          "Créer des sites internet",
+          "Gérer la comptabilité de l'entreprise",
+          "Envoyer des newsletters automatiques"
         ],
         "correct": 0
       },
       {
-        "question": "Quel CRM gratuit est le plus adapté à un artisan ou indépendant en 2026 ?",
+        "question": "Qu'est-ce qu'un pipeline dans un CRM ?",
         "options": [
-          "Neptula",
-          "HubSpot",
-          "Zoho CRM",
-          "Notion"
+          "La visualisation des affaires en cours par étape de vente",
+          "Un outil d'import de contacts",
+          "Un système de facturation automatique",
+          "Un calendrier de rendez-vous"
         ],
         "correct": 0
       }
@@ -160,32 +160,32 @@
     ],
     "quiz": [
       {
-        "question": "Quelle IA permet de créer un site internet complet en décrivant son projet en langage naturel ?",
+        "question": "Qu'est-ce qu'un nom de domaine ?",
         "options": [
-          "Claude Code",
-          "ChatGPT uniquement",
-          "Midjourney",
-          "GitHub Copilot uniquement"
+          "L'adresse unique de ton site sur internet (ex: mon-site.fr)",
+          "Le serveur qui héberge les fichiers de ton site",
+          "Le code source de ton site web",
+          "Le certificat de sécurité SSL"
         ],
         "correct": 0
       },
       {
-        "question": "Quel est l'hébergement gratuit recommandé pour un site généré avec Next.js ?",
+        "question": "Que signifie SEO ?",
         "options": [
-          "GitHub Pages ou Vercel",
-          "OVH uniquement",
-          "Hostinger",
-          "Il n'existe pas d'hébergement gratuit"
+          "Search Engine Optimization — l'optimisation pour les moteurs de recherche",
+          "Site Editing Online",
+          "Secure Email Operation",
+          "Social Engagement Optimization"
         ],
         "correct": 0
       },
       {
-        "question": "Combien de temps faut-il en moyenne pour créer un site vitrine avec un outil no-code ou Claude Code ?",
+        "question": "Quel élément est indispensable pour qu'un site soit trouvé sur Google ?",
         "options": [
-          "1 à 3 jours",
-          "1 semaine minimum",
-          "1 mois",
-          "6 mois"
+          "Des balises méta, un contenu optimisé et des mots-clés pertinents",
+          "Un design animé avec des effets visuels",
+          "Un hébergement payant obligatoirement",
+          "Un site en anglais uniquement"
         ],
         "correct": 0
       }
