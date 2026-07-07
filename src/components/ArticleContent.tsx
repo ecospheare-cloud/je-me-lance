@@ -137,6 +137,20 @@ export default function ArticleContent({ post }: { post: Post }) {
             return null;
           }
 
+          if (block.startsWith("![")) {
+            const match = block.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+            if (match) {
+              return (
+                <img
+                  key={i}
+                  src={match[2]}
+                  alt={match[1]}
+                  className="w-full rounded-xl my-2 border border-[#E2E8F0]"
+                />
+              );
+            }
+          }
+
           if (block.startsWith("### ")) {
             return (
               <h3 key={i} className="text-xl font-bold text-[#0F172A] mt-4 mb-1">
