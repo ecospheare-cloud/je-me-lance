@@ -94,32 +94,37 @@
         "Méthode",
         "Coût",
         "Délai",
-        "Niveau technique"
+        "Niveau technique",
+        "Qualité du site"
       ],
       "rows": [
         [
           "No-code (Wix, Webflow)",
           "12-50 €/mois",
           "7-14 jours",
-          "Débutant"
+          "Débutant",
+          "⭐⭐⭐⭐"
         ],
         [
           "WordPress",
           "5-15 €/mois",
           "3-10 jours",
-          "Intermédiaire"
+          "Intermédiaire",
+          "⭐⭐"
         ],
         [
           "Claude Code",
           "Gratuit (limité) / 20 €/mois Pro",
           "1-4 jours",
-          "Débutant+"
+          "Débutant+",
+          "⭐⭐⭐⭐⭐"
         ],
         [
           "Développeur",
           "~2 000 € one-shot",
           "3-4 semaines",
-          "Aucun"
+          "Aucun",
+          "⭐⭐⭐⭐⭐"
         ]
       ]
     }
