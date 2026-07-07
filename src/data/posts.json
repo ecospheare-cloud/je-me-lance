@@ -92,7 +92,7 @@
       "title": "Comparatif méthodes pour créer un site en 2026",
       "headers": [
         "Méthode",
-        "Coût mensuel",
+        "Coût",
         "Délai",
         "Niveau technique"
       ],
@@ -100,7 +100,7 @@
         [
           "No-code (Wix, Webflow)",
           "12-50 €/mois",
-          "1-5 jours",
+          "7-14 jours",
           "Débutant"
         ],
         [
@@ -111,14 +111,14 @@
         ],
         [
           "Claude Code",
-          "0 €/mois",
-          "1-7 jours",
+          "Gratuit (limité) / 20 €/mois Pro",
+          "1-4 jours",
           "Débutant+"
         ],
         [
           "Développeur",
-          "0 €/mois (one-shot)",
-          "2 sem - 3 mois",
+          "~2 000 € one-shot",
+          "3-4 semaines",
           "Aucun"
         ]
       ]
