@@ -1,5 +1,130 @@
 [
   {
+    "slug": "comment-creer-site-internet-2026",
+    "category": "Outils & Tech",
+    "title": "Comment Créer un Site Internet en 2026 : Guide Complet",
+    "metaTitle": "Comment Créer un Site Internet en 2026",
+    "excerpt": "Comment créer un site internet en 2026 : comparatif des méthodes (no-code, WordPress, Claude Code), coûts, délais et conseils pour choisir la bonne solution selon ton projet.",
+    "date": "7 juillet 2026",
+    "keyPoints": [
+      "Les différentes méthodes pour créer un site en 2026 (no-code, CMS, code)",
+      "Comment utiliser Claude Code pour créer un site professionnel sans développeur",
+      "Comparatif coûts et délais selon les solutions",
+      "Les étapes concrètes pour lancer son site rapidement"
+    ],
+    "content": [
+      "Créer un site internet en 2026 n'a jamais été aussi accessible. Entre les outils no-code, les CMS comme WordPress et les nouvelles IA comme Claude Code, un entrepreneur peut lancer un site professionnel en quelques jours sans budget développeur. Voici comment choisir la bonne méthode selon ton projet.",
+      "## Comment Créer un Site Internet en 2026 : Les 4 Méthodes",
+      "### 1. Le no-code (Webflow, Wix, Framer)",
+      "Les outils no-code permettent de créer un site internet en 2026 sans écrire une ligne de code. Webflow est idéal pour les sites vitrines et portfolios avec un design soigné. Wix convient aux débutants qui veulent aller vite. Framer s'impose comme la référence pour les startups tech avec des animations avancées. Coût : entre 12 et 50 €/mois. Délai : 1 à 5 jours.",
+      "### 2. WordPress avec un thème premium",
+      "WordPress reste le CMS le plus utilisé au monde (43% des sites). Avec un thème Elementor ou Divi, tu peux créer un site internet professionnel sans coder. L'avantage : une flexibilité maximale et un écosystème d'extensions immense. L'inconvénient : maintenance et mises à jour régulières. Coût : hébergement (5-15 €/mois) + thème (50-100 € une fois). Délai : 3 à 10 jours.",
+      "### 3. L'IA générative : créer son site avec Claude Code",
+      "La vraie révolution de 2026, c'est la possibilité de créer un site internet complet grâce à des IA comme Claude Code. Tu décris ton projet en langage naturel, et Claude Code génère le code HTML, CSS et JavaScript — ou même une application Next.js complète avec blog, formulaire de contact et référencement SEO intégré.",
+      "**Ce que Claude Code peut faire pour ton site :**\n- Générer une landing page ou un site vitrine complet\n- Créer un blog avec système de publication d'articles\n- Intégrer un formulaire de contact fonctionnel\n- Optimiser le SEO (balises méta, sitemap, structured data)\n- Adapter le design à ta charte graphique\n- Connecter des APIs (newsletter, analytics, paiement)",
+      "C'est exactement comme ça que ce site a été créé : avec Claude Code. En partant d'une description du projet, Claude Code a généré l'ensemble du code Next.js, les composants, le système de blog et le déploiement automatique sur GitHub Pages — sans développeur, en quelques jours.",
+      "### 4. Faire appel à un développeur ou une agence",
+      "Pour un projet complexe (e-commerce, application web, fonctionnalités sur-mesure), un développeur reste la solution la plus fiable. Coût : 2 000 à 20 000 € selon la complexité. Délai : 2 semaines à 3 mois. En 2026, beaucoup de développeurs utilisent eux-mêmes des IA comme Claude Code pour accélérer leur travail — ce qui réduit les délais et les coûts.",
+      "## Comment Créer un Site avec Claude Code : Mode d'Emploi",
+      "### Étape 1 : Accéder à Claude Code",
+      "Claude Code est disponible sur claude.ai. Tu peux l'utiliser directement dans le navigateur ou via l'extension VS Code. Pour créer un site internet complet, la version Pro (20 €/mois) est recommandée pour les projets de taille réelle.",
+      "### Étape 2 : Décrire ton projet",
+      "Décris ton projet avec le maximum de détails : type de site (vitrine, blog, portfolio), secteur d'activité, couleurs souhaitées, pages nécessaires, fonctionnalités. Plus ta description est précise, plus le résultat sera proche de ce que tu imagines. Exemple : \"Crée-moi un site vitrine pour une coach business, avec une page d'accueil, une page services, un blog et un formulaire de contact. Palette de couleurs verte et blanche, style moderne et épuré.\"",
+      "### Étape 3 : Itérer et affiner",
+      "Claude Code génère une première version que tu peux modifier en temps réel. \"Ajoute une section témoignages\", \"Change la couleur du bouton en vert\", \"Optimise le titre H1 pour le mot-clé X\" — chaque instruction est prise en compte immédiatement. C'est un dialogue continu jusqu'à obtenir exactement ce que tu veux.",
+      "### Étape 4 : Déployer en production",
+      "Claude Code peut aussi gérer le déploiement. Les solutions les plus courantes : GitHub Pages (gratuit), Vercel (gratuit jusqu'à un certain trafic) ou Netlify (gratuit). En quelques commandes, ton site est en ligne avec un nom de domaine personnalisé.",
+      "## Comparatif : Quelle Méthode Choisir pour Créer son Site en 2026 ?",
+      "Le no-code convient si tu veux un résultat rapide sans toucher au code et que tu n'as pas de besoins très spécifiques. WordPress convient si tu veux un CMS évolutif avec beaucoup de plugins disponibles. Claude Code convient si tu veux un site 100% sur-mesure, performant, sans coût mensuel d'outil, et que tu es à l'aise avec un minimum de technique. Un développeur convient si tu as un budget et des fonctionnalités très complexes.",
+      "## Comment Créer un Site Internet en 2026 : Les Erreurs à Éviter",
+      "**Ne pas penser au SEO dès le départ.** Un site sans optimisation SEO ne sera pas trouvé sur Google. Avec Claude Code, tu peux intégrer les balises méta, le sitemap et le balisage structuré dès la création.",
+      "**Négliger la version mobile.** Plus de 60% du trafic web vient des smartphones. Assure-toi que ton site est responsive — Claude Code génère du code mobile-first par défaut.",
+      "**Choisir un hébergement trop lent.** La vitesse de chargement impacte directement le SEO et l'expérience utilisateur. Vise un temps de chargement inférieur à 2 secondes.",
+      "**Ne pas prévoir de maintenance.** Un site, ça s'entretient : mises à jour de sécurité, nouveau contenu, optimisations régulières. Avec Claude Code, les modifications sont rapides et ne nécessitent pas de connaissances techniques avancées.",
+      "## Conclusion",
+      "Créer un site internet en 2026 est à la portée de tous les entrepreneurs. La méthode no-code reste la plus accessible pour les débutants, WordPress pour ceux qui veulent de la flexibilité, et Claude Code pour ceux qui veulent un site sur-mesure sans passer par une agence. Pour un créateur d'entreprise avec un budget limité, Claude Code représente probablement le meilleur rapport qualité/coût du marché : un site professionnel, performant et entièrement personnalisé pour une fraction du coût d'un développeur.",
+      "## Questions Fréquentes sur la Création de Site en 2026",
+      "**Quel est le coût pour créer un site internet en 2026 ?**",
+      "Le coût varie énormément selon la méthode : gratuit avec GitHub Pages + Claude Code (hors nom de domaine ~10 €/an), 12-50 €/mois avec un outil no-code, 50-200 €/an avec WordPress, ou 2 000-20 000 € avec un développeur. Pour un entrepreneur qui démarre, Claude Code + hébergement gratuit est la solution la plus économique.",
+      "**Faut-il savoir coder pour utiliser Claude Code ?**",
+      "Non. Claude Code est conçu pour être utilisé en langage naturel — tu décris ce que tu veux, l'IA génère le code. Tu n'as pas besoin de comprendre le code pour obtenir un résultat professionnel. Des notions de base (comprendre ce qu'est un fichier HTML, savoir utiliser un terminal) facilitent l'expérience mais ne sont pas indispensables.",
+      "**Combien de temps faut-il pour créer un site internet en 2026 ?**",
+      "Avec un outil no-code ou Claude Code, un site vitrine simple peut être en ligne en 1 à 3 jours. Un blog complet comme je-me-lance.fr a été créé en quelques semaines. Avec un développeur, compte 2 semaines à 3 mois selon la complexité.",
+      "**Claude Code peut-il créer un site e-commerce ?**",
+      "Oui, Claude Code peut générer une boutique en ligne avec Stripe pour les paiements, un système de gestion des produits et un tunnel de commande. Pour des boutiques avec des milliers de produits, Shopify reste plus adapté — mais pour un lancement avec une gamme limitée, Claude Code est parfaitement capable.",
+      "**Quel hébergement choisir pour son site en 2026 ?**",
+      "Pour un site statique (généré avec Next.js ou autre framework), GitHub Pages et Vercel offrent un hébergement gratuit et performant. Pour un WordPress, OVH, o2switch ou Hostinger proposent des offres à partir de 3-5 €/mois avec un très bon rapport qualité/prix."
+    ],
+    "quiz": [
+      {
+        "question": "Quelle IA permet de créer un site internet complet en décrivant son projet en langage naturel ?",
+        "options": [
+          "Claude Code",
+          "ChatGPT uniquement",
+          "Midjourney",
+          "GitHub Copilot uniquement"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Quel est l'hébergement gratuit recommandé pour un site généré avec Next.js ?",
+        "options": [
+          "GitHub Pages ou Vercel",
+          "OVH uniquement",
+          "Hostinger",
+          "Il n'existe pas d'hébergement gratuit"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Combien de temps faut-il en moyenne pour créer un site vitrine avec un outil no-code ou Claude Code ?",
+        "options": [
+          "1 à 3 jours",
+          "1 semaine minimum",
+          "1 mois",
+          "6 mois"
+        ],
+        "correct": 0
+      }
+    ],
+    "infographic": {
+      "type": "table",
+      "title": "Comparatif méthodes pour créer un site en 2026",
+      "headers": [
+        "Méthode",
+        "Coût mensuel",
+        "Délai",
+        "Niveau technique"
+      ],
+      "rows": [
+        [
+          "No-code (Wix, Webflow)",
+          "12-50 €/mois",
+          "1-5 jours",
+          "Débutant"
+        ],
+        [
+          "WordPress",
+          "5-15 €/mois",
+          "3-10 jours",
+          "Intermédiaire"
+        ],
+        [
+          "Claude Code",
+          "0 €/mois",
+          "1-7 jours",
+          "Débutant+"
+        ],
+        [
+          "Développeur",
+          "0 €/mois (one-shot)",
+          "2 sem - 3 mois",
+          "Aucun"
+        ]
+      ]
+    }
+  },
+  {
     "slug": "conseil-tpe-pme-creation-entreprise-2026",
     "category": "Conseil & accompagnement",
     "title": "Comment Créer une TPE ou PME en 2026 : Guide Complet",
@@ -3034,131 +3159,6 @@
           "ACRE",
           "Exo charges 1ère année",
           "Cumulable avec ARCE et ARE"
-        ]
-      ]
-    }
-  },
-  {
-    "slug": "comment-creer-site-internet-2026",
-    "category": "Outils & Tech",
-    "title": "Comment Créer un Site Internet en 2026 : Guide Complet",
-    "metaTitle": "Comment Créer un Site Internet en 2026",
-    "excerpt": "Comment créer un site internet en 2026 : comparatif des méthodes (no-code, WordPress, Claude Code), coûts, délais et conseils pour choisir la bonne solution selon ton projet.",
-    "date": "7 juillet 2026",
-    "keyPoints": [
-      "Les différentes méthodes pour créer un site en 2026 (no-code, CMS, code)",
-      "Comment utiliser Claude Code pour créer un site professionnel sans développeur",
-      "Comparatif coûts et délais selon les solutions",
-      "Les étapes concrètes pour lancer son site rapidement"
-    ],
-    "content": [
-      "Créer un site internet en 2026 n'a jamais été aussi accessible. Entre les outils no-code, les CMS comme WordPress et les nouvelles IA comme Claude Code, un entrepreneur peut lancer un site professionnel en quelques jours sans budget développeur. Voici comment choisir la bonne méthode selon ton projet.",
-      "## Comment Créer un Site Internet en 2026 : Les 4 Méthodes",
-      "### 1. Le no-code (Webflow, Wix, Framer)",
-      "Les outils no-code permettent de créer un site internet en 2026 sans écrire une ligne de code. Webflow est idéal pour les sites vitrines et portfolios avec un design soigné. Wix convient aux débutants qui veulent aller vite. Framer s'impose comme la référence pour les startups tech avec des animations avancées. Coût : entre 12 et 50 €/mois. Délai : 1 à 5 jours.",
-      "### 2. WordPress avec un thème premium",
-      "WordPress reste le CMS le plus utilisé au monde (43% des sites). Avec un thème Elementor ou Divi, tu peux créer un site internet professionnel sans coder. L'avantage : une flexibilité maximale et un écosystème d'extensions immense. L'inconvénient : maintenance et mises à jour régulières. Coût : hébergement (5-15 €/mois) + thème (50-100 € une fois). Délai : 3 à 10 jours.",
-      "### 3. L'IA générative : créer son site avec Claude Code",
-      "La vraie révolution de 2026, c'est la possibilité de créer un site internet complet grâce à des IA comme Claude Code. Tu décris ton projet en langage naturel, et Claude Code génère le code HTML, CSS et JavaScript — ou même une application Next.js complète avec blog, formulaire de contact et référencement SEO intégré.",
-      "**Ce que Claude Code peut faire pour ton site :**\n- Générer une landing page ou un site vitrine complet\n- Créer un blog avec système de publication d'articles\n- Intégrer un formulaire de contact fonctionnel\n- Optimiser le SEO (balises méta, sitemap, structured data)\n- Adapter le design à ta charte graphique\n- Connecter des APIs (newsletter, analytics, paiement)",
-      "C'est exactement comme ça que ce site a été créé : avec Claude Code. En partant d'une description du projet, Claude Code a généré l'ensemble du code Next.js, les composants, le système de blog et le déploiement automatique sur GitHub Pages — sans développeur, en quelques jours.",
-      "### 4. Faire appel à un développeur ou une agence",
-      "Pour un projet complexe (e-commerce, application web, fonctionnalités sur-mesure), un développeur reste la solution la plus fiable. Coût : 2 000 à 20 000 € selon la complexité. Délai : 2 semaines à 3 mois. En 2026, beaucoup de développeurs utilisent eux-mêmes des IA comme Claude Code pour accélérer leur travail — ce qui réduit les délais et les coûts.",
-      "## Comment Créer un Site avec Claude Code : Mode d'Emploi",
-      "### Étape 1 : Accéder à Claude Code",
-      "Claude Code est disponible sur claude.ai. Tu peux l'utiliser directement dans le navigateur ou via l'extension VS Code. Pour créer un site internet complet, la version Pro (20 €/mois) est recommandée pour les projets de taille réelle.",
-      "### Étape 2 : Décrire ton projet",
-      "Décris ton projet avec le maximum de détails : type de site (vitrine, blog, portfolio), secteur d'activité, couleurs souhaitées, pages nécessaires, fonctionnalités. Plus ta description est précise, plus le résultat sera proche de ce que tu imagines. Exemple : \"Crée-moi un site vitrine pour une coach business, avec une page d'accueil, une page services, un blog et un formulaire de contact. Palette de couleurs verte et blanche, style moderne et épuré.\"",
-      "### Étape 3 : Itérer et affiner",
-      "Claude Code génère une première version que tu peux modifier en temps réel. \"Ajoute une section témoignages\", \"Change la couleur du bouton en vert\", \"Optimise le titre H1 pour le mot-clé X\" — chaque instruction est prise en compte immédiatement. C'est un dialogue continu jusqu'à obtenir exactement ce que tu veux.",
-      "### Étape 4 : Déployer en production",
-      "Claude Code peut aussi gérer le déploiement. Les solutions les plus courantes : GitHub Pages (gratuit), Vercel (gratuit jusqu'à un certain trafic) ou Netlify (gratuit). En quelques commandes, ton site est en ligne avec un nom de domaine personnalisé.",
-      "## Comparatif : Quelle Méthode Choisir pour Créer son Site en 2026 ?",
-      "Le no-code convient si tu veux un résultat rapide sans toucher au code et que tu n'as pas de besoins très spécifiques. WordPress convient si tu veux un CMS évolutif avec beaucoup de plugins disponibles. Claude Code convient si tu veux un site 100% sur-mesure, performant, sans coût mensuel d'outil, et que tu es à l'aise avec un minimum de technique. Un développeur convient si tu as un budget et des fonctionnalités très complexes.",
-      "## Comment Créer un Site Internet en 2026 : Les Erreurs à Éviter",
-      "**Ne pas penser au SEO dès le départ.** Un site sans optimisation SEO ne sera pas trouvé sur Google. Avec Claude Code, tu peux intégrer les balises méta, le sitemap et le balisage structuré dès la création.",
-      "**Négliger la version mobile.** Plus de 60% du trafic web vient des smartphones. Assure-toi que ton site est responsive — Claude Code génère du code mobile-first par défaut.",
-      "**Choisir un hébergement trop lent.** La vitesse de chargement impacte directement le SEO et l'expérience utilisateur. Vise un temps de chargement inférieur à 2 secondes.",
-      "**Ne pas prévoir de maintenance.** Un site, ça s'entretient : mises à jour de sécurité, nouveau contenu, optimisations régulières. Avec Claude Code, les modifications sont rapides et ne nécessitent pas de connaissances techniques avancées.",
-      "## Conclusion",
-      "Créer un site internet en 2026 est à la portée de tous les entrepreneurs. La méthode no-code reste la plus accessible pour les débutants, WordPress pour ceux qui veulent de la flexibilité, et Claude Code pour ceux qui veulent un site sur-mesure sans passer par une agence. Pour un créateur d'entreprise avec un budget limité, Claude Code représente probablement le meilleur rapport qualité/coût du marché : un site professionnel, performant et entièrement personnalisé pour une fraction du coût d'un développeur.",
-      "## Questions Fréquentes sur la Création de Site en 2026",
-      "**Quel est le coût pour créer un site internet en 2026 ?**",
-      "Le coût varie énormément selon la méthode : gratuit avec GitHub Pages + Claude Code (hors nom de domaine ~10 €/an), 12-50 €/mois avec un outil no-code, 50-200 €/an avec WordPress, ou 2 000-20 000 € avec un développeur. Pour un entrepreneur qui démarre, Claude Code + hébergement gratuit est la solution la plus économique.",
-      "**Faut-il savoir coder pour utiliser Claude Code ?**",
-      "Non. Claude Code est conçu pour être utilisé en langage naturel — tu décris ce que tu veux, l'IA génère le code. Tu n'as pas besoin de comprendre le code pour obtenir un résultat professionnel. Des notions de base (comprendre ce qu'est un fichier HTML, savoir utiliser un terminal) facilitent l'expérience mais ne sont pas indispensables.",
-      "**Combien de temps faut-il pour créer un site internet en 2026 ?**",
-      "Avec un outil no-code ou Claude Code, un site vitrine simple peut être en ligne en 1 à 3 jours. Un blog complet comme je-me-lance.fr a été créé en quelques semaines. Avec un développeur, compte 2 semaines à 3 mois selon la complexité.",
-      "**Claude Code peut-il créer un site e-commerce ?**",
-      "Oui, Claude Code peut générer une boutique en ligne avec Stripe pour les paiements, un système de gestion des produits et un tunnel de commande. Pour des boutiques avec des milliers de produits, Shopify reste plus adapté — mais pour un lancement avec une gamme limitée, Claude Code est parfaitement capable.",
-      "**Quel hébergement choisir pour son site en 2026 ?**",
-      "Pour un site statique (généré avec Next.js ou autre framework), GitHub Pages et Vercel offrent un hébergement gratuit et performant. Pour un WordPress, OVH, o2switch ou Hostinger proposent des offres à partir de 3-5 €/mois avec un très bon rapport qualité/prix."
-    ],
-    "quiz": [
-      {
-        "question": "Quelle IA permet de créer un site internet complet en décrivant son projet en langage naturel ?",
-        "options": [
-          "Claude Code",
-          "ChatGPT uniquement",
-          "Midjourney",
-          "GitHub Copilot uniquement"
-        ],
-        "correct": 0
-      },
-      {
-        "question": "Quel est l'hébergement gratuit recommandé pour un site généré avec Next.js ?",
-        "options": [
-          "GitHub Pages ou Vercel",
-          "OVH uniquement",
-          "Hostinger",
-          "Il n'existe pas d'hébergement gratuit"
-        ],
-        "correct": 0
-      },
-      {
-        "question": "Combien de temps faut-il en moyenne pour créer un site vitrine avec un outil no-code ou Claude Code ?",
-        "options": [
-          "1 à 3 jours",
-          "1 semaine minimum",
-          "1 mois",
-          "6 mois"
-        ],
-        "correct": 0
-      }
-    ],
-    "infographic": {
-      "type": "table",
-      "title": "Comparatif méthodes pour créer un site en 2026",
-      "headers": [
-        "Méthode",
-        "Coût mensuel",
-        "Délai",
-        "Niveau technique"
-      ],
-      "rows": [
-        [
-          "No-code (Wix, Webflow)",
-          "12-50 €/mois",
-          "1-5 jours",
-          "Débutant"
-        ],
-        [
-          "WordPress",
-          "5-15 €/mois",
-          "3-10 jours",
-          "Intermédiaire"
-        ],
-        [
-          "Claude Code",
-          "0 €/mois",
-          "1-7 jours",
-          "Débutant+"
-        ],
-        [
-          "Développeur",
-          "0 €/mois (one-shot)",
-          "2 sem - 3 mois",
-          "Aucun"
         ]
       ]
     }
