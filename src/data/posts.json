@@ -2543,7 +2543,38 @@
       "Chaque mois ou chaque trimestre (au choix), tu devras déclarer ton chiffre d'affaires encaissé sur le portail Urssaf, même s'il est nul. C'est cette déclaration qui calcule automatiquement tes cotisations sociales, prélevées dans les jours qui suivent. Oublier une déclaration peut entraîner une pénalité, donc mets un rappel récurrent dans ton agenda. Si tu es aussi inscrit à France Travail, regarde notre article sur le [cumul auto-entrepreneur et chômage](/blog/auto-entrepreneur-et-chomage) pour ne pas perdre tes droits.",
       "Dernier point essentiel : la micro-entreprise est soumise à des plafonds de chiffre d'affaires annuel. Si tu les dépasses deux années de suite, tu bascules automatiquement vers un régime réel d'imposition, ce qui implique souvent de changer de statut juridique pour rester optimisé fiscalement. Consulte notre détail des [plafonds de la micro-entreprise en 2026](/blog/plafonds-micro-entreprise-2026) pour anticiper ce changement, et notre comparatif [auto-entrepreneur ou SASU](/blog/auto-entrepreneur-ou-sasu) si tu dois basculer de statut."
     ],
-    "quiz": [],
+    "quiz": [
+      {
+        "question": "Quel est le délai moyen pour créer une micro-entreprise en ligne ?",
+        "options": [
+          "24 à 48 heures",
+          "1 semaine",
+          "1 mois",
+          "3 mois"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Quel organisme gère la création d'une micro-entreprise ?",
+        "options": [
+          "Le guichet unique INPI",
+          "La chambre de commerce uniquement",
+          "L'URSSAF uniquement",
+          "La mairie"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "À quelle fréquence doit-on déclarer son chiffre d'affaires en micro-entreprise ?",
+        "options": [
+          "Mensuellement ou trimestriellement",
+          "Une fois par an",
+          "Chaque semaine",
+          "À chaque vente"
+        ],
+        "correct": 0
+      }
+    ],
     "keyPoints": [],
     "metaTitle": "Devenir Auto-Entrepreneur en 2026",
     "infographic": {
@@ -2588,7 +2619,38 @@
       "4. Le cold email ciblé. Identifie une vingtaine d'entreprises qui correspondent exactement à ta cible, et envoie un message court et personnalisé qui montre que tu as fait tes recherches sur leur activité. Évite les messages génériques envoyés en masse, qui finissent en spam : la personnalisation fait toute la différence sur le taux de réponse. Si tu cumules cette activité avec le chômage, regarde aussi notre article sur le [cumul auto-entrepreneur et chômage](/blog/auto-entrepreneur-et-chomage) pour sécuriser tes droits pendant la prospection.",
       "5. Les groupes et communautés en ligne (Facebook, Slack, Discord, forums spécialisés). De nombreux groupes rassemblent justement des porteurs de projet ou des entreprises qui cherchent des prestataires. Participe activement, réponds à des questions sans rien vendre directement, et les opportunités viendront naturellement de ta crédibilité construite dans la durée. Avant de démarcher, assure-toi d'avoir bouclé les démarches administratives : notre guide pour [devenir auto-entrepreneur en 2026](/blog/devenir-auto-entrepreneur-2026) récapitule toutes les étapes, et notre [business plan simple](/blog/faire-business-plan-simple) t'aide à clarifier ton offre avant de prospecter."
     ],
-    "quiz": [],
+    "quiz": [
+      {
+        "question": "Quelle est la méthode la plus efficace pour trouver ses premiers clients ?",
+        "options": [
+          "Le réseau personnel et professionnel",
+          "Les publicités payantes",
+          "Attendre les demandes entrantes",
+          "Le démarchage par courrier"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Quelle plateforme est la plus recommandée pour un freelance B2B en France ?",
+        "options": [
+          "LinkedIn",
+          "Instagram",
+          "TikTok",
+          "Pinterest"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Combien de temps faut-il généralement pour décrocher son premier contrat freelance ?",
+        "options": [
+          "1 à 3 mois",
+          "1 semaine",
+          "6 mois minimum",
+          "Plus d'un an"
+        ],
+        "correct": 0
+      }
+    ],
     "keyPoints": [],
     "metaTitle": "Trouver ses Premiers Clients en Freelance",
     "infographic": {
@@ -2660,7 +2722,38 @@
       "**Auto-entrepreneur ou SASU pour le freelance informatique ?**",
       "Pour un freelance IT avec un TJM élevé (500 €+/jour), la SASU devient rapidement avantageuse car le CA annuel dépasse vite les seuils de la micro-entreprise et l'optimisation dividendes/salaire devient significative."
     ],
-    "quiz": [],
+    "quiz": [
+      {
+        "question": "À partir de quel CA annuel la SASU devient-elle généralement plus avantageuse ?",
+        "options": [
+          "70 000 - 80 000 €",
+          "20 000 €",
+          "150 000 €",
+          "30 000 €"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Quel est le taux de charges sociales d'un auto-entrepreneur en services ?",
+        "options": [
+          "Environ 22% du CA",
+          "Environ 45% du CA",
+          "Environ 10% du CA",
+          "Aucune charge"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Peut-on convertir directement une micro-entreprise en SASU ?",
+        "options": [
+          "Non, il faut créer une nouvelle société",
+          "Oui, via un formulaire URSSAF",
+          "Oui, automatiquement au dépassement du plafond",
+          "Oui, en passant par le greffe"
+        ],
+        "correct": 0
+      }
+    ],
     "keyPoints": [],
     "metaTitle": "SASU ou Auto Entrepreneur : Comparatif 2026",
     "infographic": {
@@ -2720,7 +2813,38 @@
       "Il existe également un seuil de franchise en base de TVA, distinct du plafond de chiffre d'affaires : 37 500 € pour les prestations de services et 85 000 € pour la vente de marchandises (seuils 2026). Au-delà, tu deviens redevable de la TVA, ce qui signifie facturer la TVA à tes clients et la reverser à l'État, même si tu restes en micro-entreprise sur le plan du régime fiscal et social.",
       "Bien suivre son chiffre d'affaires cumulé tout au long de l'année, à l'aide d'un tableau simple ou d'un outil de facturation, permet d'anticiper ces seuils plutôt que de les découvrir trop tard, au moment où les conséquences administratives et fiscales sont déjà enclenchées. Si tu approches ces plafonds, compare dès maintenant les options avec notre comparatif [auto-entrepreneur ou SASU](/blog/auto-entrepreneur-ou-sasu). Et si tu démarres tout juste ton activité, relis notre guide pour [devenir auto-entrepreneur en 2026](/blog/devenir-auto-entrepreneur-2026)."
     ],
-    "quiz": [],
+    "quiz": [
+      {
+        "question": "Quel est le plafond de CA pour une micro-entreprise de prestations de services en 2026 ?",
+        "options": [
+          "77 700 €",
+          "50 000 €",
+          "188 700 €",
+          "100 000 €"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Que se passe-t-il si tu dépasses le plafond de CA deux années consécutives ?",
+        "options": [
+          "Tu bascules automatiquement vers un régime réel",
+          "Tu paies une amende",
+          "Tu dois fermer ta micro-entreprise",
+          "Rien, les plafonds sont indicatifs"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Le plafond de la franchise en base de TVA est-il le même que le plafond de CA ?",
+        "options": [
+          "Non, le plafond TVA est plus bas",
+          "Oui, c'est le même seuil",
+          "Le plafond TVA est plus haut",
+          "Il n'y a pas de plafond TVA en micro-entreprise"
+        ],
+        "correct": 0
+      }
+    ],
     "keyPoints": [],
     "metaTitle": "Plafonds de la Micro-Entreprise 2026",
     "infographic": {
@@ -2762,7 +2886,38 @@
       "5. Le prévisionnel financier simplifié. Liste tes charges fixes mensuelles (assurances, abonnements, éventuel loyer), estime un chiffre d'affaires réaliste sur les 12 premiers mois, et calcule le seuil à partir duquel ton activité devient rentable. Pas besoin d'un tableau Excel complexe : une feuille de calcul simple avec entrées et sorties mensuelles suffit pour démarrer.",
       "L'objectif d'un business plan, surtout pour une petite structure, n'est pas d'impressionner un banquier mais avant tout de clarifier ta propre réflexion et de repérer les failles de ton projet avant de te lancer réellement. Une fois ton business plan posé, reste à boucler les démarches administratives : notre guide pour [devenir auto-entrepreneur en 2026](/blog/devenir-auto-entrepreneur-2026) détaille chaque étape, et si tu préfères te faire accompagner, notre article sur le [conseil aux entreprises](/blog/conseil-aux-entreprises-comment-ca-marche) explique comment fonctionne une mission de consulting."
     ],
-    "quiz": [],
+    "quiz": [
+      {
+        "question": "Quelle est la section la plus importante d'un business plan pour un investisseur ?",
+        "options": [
+          "L'étude de marché et le modèle économique",
+          "La présentation de l'équipe uniquement",
+          "Les projections financières à 10 ans",
+          "La description des locaux"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Combien de temps faut-il en moyenne pour réaliser un business plan sérieux ?",
+        "options": [
+          "1 à 3 semaines",
+          "1 journée",
+          "6 mois minimum",
+          "1 an"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Qu'est-ce que le seuil de rentabilité dans un business plan ?",
+        "options": [
+          "Le CA minimum pour couvrir toutes les charges",
+          "Le montant des bénéfices espérés",
+          "Le capital social de départ",
+          "Le nombre de clients nécessaires"
+        ],
+        "correct": 0
+      }
+    ],
     "keyPoints": [],
     "metaTitle": "Comment Faire un Business Plan Simple",
     "infographic": {
@@ -2807,7 +2962,38 @@
       "Il existe également l'ACRE (aide aux créateurs et repreneurs d'entreprise), qui n'est pas liée au chômage mais qui permet une exonération partielle de cotisations sociales pendant la première année d'activité, sous conditions de ressources. Elle est cumulable avec le maintien des allocations chômage, ce qui en fait un dispositif particulièrement intéressant pour démarrer en limitant les charges les premiers mois.",
       "Dans tous les cas, il est recommandé de signaler ta création d'entreprise à ton conseiller France Travail dès l'immatriculation, afin de mettre en place le bon dispositif dès le départ plutôt que de devoir régulariser une situation après coup. Si tu es une femme au chômage, notre guide sur les [aides création entreprise femme au chômage 2026](/blog/aide-creation-entreprise-femme-chomage-2026) détaille comment cumuler ARE, ARCE et ACRE avec d'autres dispositifs. Si tu as moins de 25 ans, des dispositifs complémentaires existent aussi via les Missions Locales — voir notre [guide créer son entreprise avant 25 ans](/blog/aide-creation-entreprise-moins-25-ans-2026). Et pour les démarches de création elles-mêmes, relis notre guide pour [devenir auto-entrepreneur en 2026](/blog/devenir-auto-entrepreneur-2026)."
     ],
-    "quiz": [],
+    "quiz": [
+      {
+        "question": "Peut-on cumuler une micro-entreprise avec les allocations chômage (ARE) ?",
+        "options": [
+          "Oui, sous conditions de revenus",
+          "Non, c'est interdit",
+          "Oui, sans aucune limitation",
+          "Seulement pendant 3 mois"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Comment France Travail calcule-t-il l'ARE quand tu as une micro-entreprise ?",
+        "options": [
+          "Il déduit une partie des revenus de l'allocation",
+          "Il supprime totalement l'ARE",
+          "Il ne prend pas en compte les revenus de la micro-entreprise",
+          "Il double le délai de carence"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Qu'est-ce que l'ARCE pour un demandeur d'emploi créateur d'entreprise ?",
+        "options": [
+          "Un versement en capital de l'ARE pour créer son entreprise",
+          "Une formation gratuite à la création",
+          "Une aide mensuelle supplémentaire",
+          "Un prêt sans intérêt de France Travail"
+        ],
+        "correct": 0
+      }
+    ],
     "keyPoints": [],
     "metaTitle": "Auto-Entrepreneur et Chômage : le Cumul",
     "infographic": {
