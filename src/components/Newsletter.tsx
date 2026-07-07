@@ -12,7 +12,9 @@ export default function Newsletter() {
     if (!email) return;
     setStatus("loading");
     try {
-      const res = await fetch("/api/subscribe", {
+      const workerUrl = process.env.NEXT_PUBLIC_SUBSCRIBE_WORKER_URL;
+      if (!workerUrl) throw new Error("Newsletter non configurée");
+      const res = await fetch(workerUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),

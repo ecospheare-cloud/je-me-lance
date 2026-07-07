@@ -1,9 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { posts, getPostBySlug } from "@/lib/posts";
-import RelatedPosts from "@/components/RelatedPosts";
+import ArticleContent from "@/components/ArticleContent";
 
 const siteUrl = "https://je-me-lance.fr";
 
@@ -14,12 +13,13 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug);
   if (!post) return {};
+  const seoTitle = post.metaTitle ?? post.title;
   return {
-    title: post.title,
+    title: seoTitle,
     description: post.excerpt,
     alternates: { canonical: `/blog/${post.slug}` },
     openGraph: {
-      title: post.title,
+      title: seoTitle,
       description: post.excerpt,
       url: `${siteUrl}/blog/${post.slug}`,
       type: "article",
@@ -63,46 +63,35 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <Navbar />
-      <article className="py-28 bg-white">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6">
-          <nav aria-label="Fil d'Ariane" className="text-xs text-[#0F172A]/40 mb-6">
-            <Link href="/" className="hover:text-[#22C55E]">Accueil</Link>
-            {" / "}
-            <Link href="/blog" className="hover:text-[#22C55E]">Blog</Link>
-            {" / "}
-            <span className="text-[#0F172A]/60">{post.title}</span>
-          </nav>
+      <article className="bg-white">
+        <div className="flex gap-8 min-h-screen pt-28">
+          {/* Sidebar fixe à gauche */}
+          <aside className="hidden md:flex md:flex-col md:w-72 md:sticky md:top-28 md:h-[calc(100vh-7rem)] md:pl-6 md:pr-6 md:py-8 md:border-r border-[#E2E8F0]">
+            <div className="flex flex-col gap-8">
+              <div>
+                <h3 className="text-lg font-bold text-[#0F172A] mb-3">Reçois nos conseils gratuits</h3>
+                <p className="text-sm text-[#0F172A]/60 mb-5">Rejoins les entrepreneures qui reçoivent chaque semaine des guides et astuces pour réussir.</p>
+                <form className="flex flex-col gap-3">
+                  <input
+                    type="email"
+                    placeholder="Ton email"
+                    className="px-4 py-2.5 border border-[#E2E8F0] rounded-lg text-sm focus:outline-none focus:border-[#22C55E]"
+                  />
+                  <button
+                    type="submit"
+                    className="px-5 py-2.5 rounded-lg bg-[#22C55E] text-white text-sm font-bold hover:bg-[#16A34A] transition-colors"
+                  >
+                    S&apos;abonner
+                  </button>
+                </form>
+              </div>
+            </div>
+          </aside>
 
-          <span className="inline-flex px-3 py-1 rounded-full bg-[#22C55E]/10 text-[#16A34A] text-xs font-bold uppercase tracking-wide mb-4">
-            {post.category}
-          </span>
-
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] mb-3 leading-tight">
-            {post.title}
-          </h1>
-          <p className="text-[#0F172A]/40 text-sm mb-10">{post.date}</p>
-
-          <div className="flex flex-col gap-5">
-            {post.content.map((paragraph, i) => (
-              <p key={i} className="text-[#0F172A]/80 text-base leading-relaxed">
-                {paragraph}
-              </p>
-            ))}
+          {/* Contenu scrollable */}
+          <div className="flex-1 pb-12 px-4 sm:px-6 max-w-2xl">
+            <ArticleContent post={post} />
           </div>
-
-          <div className="mt-14 p-6 rounded-2xl bg-[#F0FDF4] border border-green-100">
-            <p className="text-[#0F172A] font-semibold mb-2">
-              Tu veux d&apos;autres conseils pour créer ton entreprise ?
-            </p>
-            <Link
-              href="/blog"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#22C55E] text-white text-sm font-bold hover:bg-[#16A34A] transition-colors"
-            >
-              Voir tous les articles →
-            </Link>
-          </div>
-
-          <RelatedPosts currentSlug={post.slug} />
         </div>
       </article>
       <Footer />
